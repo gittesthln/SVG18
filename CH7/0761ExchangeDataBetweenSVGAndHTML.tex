@@ -1,0 +1,245 @@
+% -*- coding: utf-8 -*-
+\newcommand{\HTMLSVG}{HTMLと{\HS}SVG{\HS}DOM{\HS}の間でのデータ交換}
+\newcommand{\HS}{\hspace{0.5em}}
+%\subsection{クリックした位置をHTML内のオブジェクトに表示し、HtMLからSVG
+%  文書内の属性値を操作する}
+\label{ExchangeDatabetweenSVGandHTML}
+HTML文書はXML文書としての類似性があり、DOMで操作することが可能です。こ
+の節ではHTML文書も今までに学んできた\SVG のようにDOMの操作が可能である
+ことを示します。
+
+図\ref{ShowSetClickPos}は左の部分にあるSVGを用いて表示された画面上をクリッ
+クするしたときの位置を\HTML の部分に表示し、またその逆にテキストボックス
+などで指定した値をSVGの画像に反映できることを示すものです。
+\begin{itemize}
+ \item この図は右側のメニューをクリックした状態です。
+ \item 左側のSVG上の部分でクリックするとその場所に円の中心が移動し、クリッ
+       クした位置の座標をSVGの画像の中だけではなく右のHTMLの要素であるテ
+       キストボックスにその位置を表示します。
+ \item テキストボックスに値を入れたり、メニューの中から色を選んだ後、下
+の設定ボタンを押すと、指定された位置に円が移動します。また、指定した色に
+変わります。
+\end{itemize}
+
+\ShowFig{0.55}{ht}{ShowSetClickPos2}
+{クリック位置をHTMLで表示し、HTMLのデータからSVGの図形を動かす}{ShowSetClickPos}
+%
+\HTMLListMN{クリック位置をHTMLで表示し、HTMLのデータからSVGの図形を動かす}%
+{ShowSetClickPos4}{ShowSetClickPosL}
+
+いくつか注意する点を述べておきます。
+%\ListSub{XML}{InitS}
+\begin{itemize}
+ \item \Line{XML}がHTML5における\texttt{DOCTYPE} 宣言
+\IndexSet{DOCTYPEせんげん@\protect\texttt{DOCTYPE} 宣言}{}{}{}{HTML}
+       です。以前と比べ記述が格段に簡単になっています。
+ \item \HTML の\ElmH{htaml} は\HTML のルート要素です。その属性として
+       \texttt{svg}と\texttt{xlink}の名前空間を使用することを宣言してい
+       ます(\Line{SVGNS}と\Line{XLINKNS})。
+  \item HTMLでは\HTML のいろいろな情報は\ElmH{head}内の\ElmH{meta}で記
+	述します。ここでは\Line{CHARSET}でこの文書の文字コードがUTF-8で
+        あることを宣言しています。
+        \begin{itemize}
+         \item \Line{ReadJSFile}では外部の\JS ファイル
+               (\texttt{SSClickPos.js})を読み込みます。
+         \item \Line{CSSS}では外部のCSS ファイル
+               (\texttt{HTML.css})を読み込みます。
+        \end{itemize}
+ \item \Line{bodyS}以降の部分にHTML文書の本体が記述されています。
+ \item \Line{H1}の\ElmH{h1}は最上部の表題を記述しています。
+ \item 全体は\ElmH{div}が2つ並んだ形になっています。これらには
+       \AttribH{class}属性が定義され、ともに\texttt{Cell}となっています。
+ \item \LineR{SVGS}{SVGE}は SVG の画像を表示しています。
+       \begin{itemize}
+        \item SVGに関する要素名が直接記述されています。
+              HTML5ではHTML要素のようにSVGの要素が記述できます(インラインSVG)。
+        \item 記述の内容はリスト\ref{svg-js-showclickposL}を利用していま
+              す。
+        \item \Line{fieldS}の\Elm{g}は以前のものにはありません。後で見る
+              ようにこの要素に\Event{click}イベントの処理関数を付けます。
+        \item この要素内に長方形を置いて、\Event{click}イベントが拾えるよう
+              にしています。
+        \item また、\Line{path}で外枠をつけています。この部分は
+              \LineR{fieldS}{fieldE}の外にあるので、この上のクリックイベ
+              ントは拾えません。
+       \end{itemize}
+ \item 画面右のテキストボックスやプルダウンメニューに関するCSSは
+       \AttribH{id}を用いています(この場合の{セレクタ}は\texttt{id}
+       の前に\texttt{\#}を付けたものになります)。
+\end{itemize}
+この読み込まれるCSSファイルは次のようになっています。
+\CSSListN{基本的なCSSファイル}{HTML}{HTML.css}
+\begin{itemize}
+ \item \ElmH{h1}には\AttribH{class}属性があり、その値が\texttt{display}と
+       なっています。これに対応するCSSのセレクタは\AttribH{class}属性の
+       値の前に\texttt{.}(ピリオド)をつけたものになります。
+
+       CSSファイルの\Lines{displayS}{displayE}がその部分になります。ここ
+       ではフォントの大きさ(\CSS{font-size})を指定しています。この値には
+       単位が必要です。
+ \item SVG内の\Elm{text}には\AttribH{class}属性で\texttt{textStyle}が指
+       定されています。
+
+       CSSファイルの\Lines{textStyleS}{textStyleE}がその部分になります。ここ
+       ではフォントの大きさ(\CSS{font-size})とテキストの表示位置
+       (\AttribFnt{text-anchor}\footnote{これはSVGにおける位置指定で
+       す。})を指定しています。
+ \item SVGの画像とボタン群を横に並べるために、それらを含む\ElmH{div}
+       に\AttribH{class}属性で\texttt{Cell}がしていられています。
+
+       CSSファイルの\Lines{CellS}{CellE}がその部分になります。ここではフォ
+       ントの大きさを30px、表示形式(\CSS{display})を
+       \CSSVal{inline-block}(\ElmH{div}を一つの文字のように取り扱う)、
+       縦方向の表示位置(\CSS{vertical-align})を\CSSVal{middle}(中央)、
+       左方向の空白(\CSS{padding-left})を5pxに設定しています。
+ \item 右側のテキストボックスには\AttribH{id}が設定されています。この属
+       性値の前に\texttt{\#}をつけるとそれらの要素に対してのセレクタにな
+       ります。
+
+       \Lines{idS}{idE}がその部分になります。ここでは\ElmH{input}で
+       \AttribH{type}が\AttribHVal{text}に対して右寄せになるように
+       \CSS{text-align}を\CSSVal{right}に設定しています。SVGの場合と異な
+       ることに注意してください。また、色を選択するプルダウンメニュー
+       (\ElmH{id}が\texttt{SelectColor})と設定ボタン(\ElmH{id}が
+       \texttt{SetColor})に対しても同様の設定をしています。
+\end{itemize}
+リスト\ref{SSClickPos.js}はリスト\ref{ShowSetClickPosL}から読み込まれる
+\JS ファイルです。
+\JSListN{リスト\ref{ShowSetClickPosL}から読み込まれる\JS ファイル}{SSClickPos}{SSClickPos.js}
+%\ListSub{OnLoad}{InitOptE}
+\begin{itemize}
+ \item \Line{OnLoad}から\HTML がすべて読み終えたときに実行する関数の定義
+       の始まりです。
+  \item ここでは色を選択するリストボックスを作成しています。
+ \item まず、色の選択をする選択リストへの参照を得ます(\Line{Setcolor})。
+  \item 色を指定するリストボックスの内容をDOMの技法を用いて設定し
+       ます。
+ \item HTML文書の中に\ElmH{select}がありますので、この子
+       要素\ElmH{option}を付け加えることをします。\ElmH{option}は次のよ
+       うな形になります\footnote{HTML文書を作成したことがある人は
+       \texttt{</option>}はいらないのではと思うかもしれません。HTML文書
+       をXMLの規格に合わせるXHTMLという規格では要素の開始タグに対応する
+       終了タグは必ず記述する必要があります。}。
+\begin{Verbatim}
+	<option value="red">赤</option>
+	<option value="yellow">黄色</option>
+\end{Verbatim}
+ \item \LineR{InitOptS}{InitOptE}で属性値となる色の名称と日本語の表示に
+       使用する文
+       字列を\keysub{オブジェクトリテラル}{\JS}%
+       \IndexSet{{\JS}}{オブジェクトリテラル}{E}{における}{}%
+       で定義しています。オブジェクトリテラルでは配列の添え字に文字列が
+       使用できます。
+\iffalse
+       左側にある文字列は\keysub{キー}{オブジェクトリテラル}{の}と呼
+       ばれます。\texttt{:}をはさんだ右側はこのキーにおける値であり、こ
+       こには任意の\JS のオブジェクトを記述できます。値は「オブジェクト
+       名[キー]」の
+       形で取り扱うことができます(\Line{createTextNode}参照)。
+\fi
+ \item このデータを用いて\LineR{makeOptS}{InitOptE}で
+       \AttribH{name}属性が\texttt{SetColor}のリストボックスの内容を作
+       成しています。
+ \item オブジェクトリテラルのすべての要素にアクセスする方法は\ElmJ{for}\texttt{( 変
+       数名 in オブジェクト名)}です(\Line{makeOptS})。この変数に配列の引数がセッ
+       トされます。ここでは英語の文字列が値として代入されます。
+ \item \Line{createOption}で\ElmH{option}を作成し、
+       \Line{setValue}\AttribH{value}に
+       色名(ここでは\ElmJ{for}内の変数であるキーの値\texttt{Color})を設
+       定しています。この値は英語の色名なので円の色の
+       設定にそのまま利用できます。
+ \item \ElmH{option}に表示する文字列を設定するために
+       \Line{createTextNode}でテキストノードを作成しています。この文字列
+       はオブジェクトリテラルの値のほうを用います。
+ \item \Line{appendTextNode}でこのテキストノードを\ElmH{option}要素の子
+       ノードとして付け加えています。
+ \item 作成された要素をリストボックスの子ノードとして付け加えます
+       (\Line{appendChild})。
+%\end{itemize}
+%\ListSub{getObjectS}{CorrectE}
+%\begin{itemize}
+ \item \LineR{getObjectS}{getObjectE}で\HTML 内のオブジェクトの参照を
+       変数に代入しています。
+ \item その後、表示されている円の座標をテキストボックスに反映させていま
+       す(\Lines{GetX}{GetY})。
+  \item \Line{setEventListner}で定義されている関数\texttt{click(event)}は
+       \SVG 上でマウスがクリックされたときに呼び出されます。イベントリス
+       ナーの定義は\LineR{ClickS}{ClickE}で定義されています。
+ \item \Line{Set}では「設定」ボタンがクリックしたとき(\Event{onclick})に
+       呼び出される関数を「\texttt{refresh}」に定義しています。
+       \ElmJ{function}で定義された関数名はそのままグローバル変数として使
+       用できることに注意してください。
+ \item ブラウザ上でクリックするとその位置は文書全体の位置
+       になり、SVG文書内での位置とは異なります。要素が配置された位置を得
+       るための関数が\ElmJ{getBoundingClientRect}です(\Line{CorrectS})。
+ \item 実際にクリックできる範囲は\Elm{svg}の中で下、右にそれぞれ$5$ピク
+			 セル移動していますので、その分も配置からずらします
+			 (\Lines{SetOffset1}{SetOffset2})。
+
+			 なお、これらの値は状況によっては整数とはならないので、小数点以下
+			 を切り捨てています。
+%\ListSub{ClickS}{ClickE}
+ \item \LineR{ClickS}{ClickE}でクリックされたときのイベント処理関数が定
+       義されています。ここではクリックされた位置から
+       \Lines{SetOffset1}{SetOffset2}で求めた補正値を引いてそれぞれのテキス
+       トボックスに表示させています。
+\end{itemize}
+\begin{Problem}\upshape
+ リスト\ref{ShowSetClickPosL}について次のことを行いなさい。
+\begin{enumerate}
+ \item 表題のフォントの大きさを変えてもクリックする位置は正しく求められ
+       ることを確認しなさい。
+ \item 起動後、ウィンドウの幅を狭くして(または広くして)表題の部分の行数を変化さ
+       せるとクリックした位置と円が設定される場所が異なることを確認しな
+       さい。\label{correctError}
+ \item \ref{correctError}の不具合を直しなさい
+\end{enumerate}
+\end{Problem}
+図\ref{pinna.html.fig}は図\ref{pinna}において\HTML から色を設定できるように
+したものです。
+\ShowFig{0.5}{ht}{pinna.html}
+{バインジオ$\bullet$ピンナの錯視図形をテキストボックスから設定}{pinna.html.fig}
+
+右側に曲線の色を入力するテキストボックスと、設定を図に反映
+させるボタンがあります。
+\HTMLListMN{バインジオ$\bullet$ピンナの錯視図形の色をテキストボックスから設
+定}{pinna}{pinna.html}
+リスト\ref{svg-pinna}では一つのファイルにまとめてありましたが、ここでは
+CSSファイルと\JS ファイルは外部ファイルとしています。
+
+この\HTML は本質的にリスト\ref{ShowSetClickPosL}と同じです。図形を描いて
+いる部分がなく、座標を移動する\Elm{g}があるだけです。
+
+次のリストはリスト\ref{pinna.html}で読み込むCSSファイルです。
+\CSSListN{リスト\ref{pinna.html}で読み込むCSSファイル}{pinna}{pinna.css}
+これもリスト\ref{HTML.css}とほとんど変わりません。
+\JSListN{リスト\ref{pinna.html}で読み込む\JS ファイル}{pinna}{pinna.js}
+\begin{itemize}
+ \item このリストでは図形を作成して表示する関数\texttt{DrawFigs()}とそレ
+       から6回呼び出される関数\texttt{Drawfigure()}の基本的なアルゴリズ
+       ムは全く同じです。
+ \item すべてのファイルが呼び込まれた後に発生するイベントの処理関数
+       \texttt{window.onload}が\Lines{init1}{init2}で定義されています。
+       \begin{itemize}
+        \item \Line{getElm1}と\Line{getElm2}で設定された色がある要素を
+              変数に格納しています。
+        \item 図形を構成する4つの要素を作成して、配列に格納しています
+              (\Lines{createPathsS}{createPathsE})。これは、後で色を設定
+              しなおすときの処理を簡単にするためです。
+        \item \Line{setInitialVal1}と\Line{setInitialVal2}でテキストボッ
+              クスの初期値を設定しています。
+        \item \Line{addEvent}ではボタンが押されたときの処理関数を定義し
+              ています。
+        \item \Line{draw}で初期値を用いて図形を表示します。
+       \end{itemize}
+ \item \Lines{DrawFigureS}{DrawFigureE}で図形を表示する関数を定義しています。
+       色はテキストボックスから読むので、仮引数が必要でなくなっています。
+ \item \Lines{DrawFig1}{DrawFig2}で一周分の図形を描く関数
+       \texttt{DrawFigure}を呼びだしています。以前と異なり、何番目の図形
+       なのかを示す引数が追加されています。
+ \item この仮引数を使って、計算された図形の形と色を設定しています(\Line{setFig})。
+\end{itemize}
+ \begin{Problem}
+ 今までに示された錯視図形のパラメータを外部から設定するように書き直しな
+ さい。
+ \end{Problem}

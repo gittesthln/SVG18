@@ -1,0 +1,95 @@
+%-*- coding: utf-8 -*-
+\chapter{SVG入門}
+\section{SVGファイルを作成する方法と作成上の注意}
+SVGはテキストベースの画像表現フォーマットです。
+%\footnote{テキストベースといっても顔文字とは違います。}
+これを作成するためには
+\keyitem{テキストエディタ}と呼ばれるソフトウェアを使います。Windows で標準につい
+てくるメモ帳はテキストエディタの例です。
+%XML の文書を編集するためのエディタも便利です。
+\begin{Problem}\upshape
+エディタソフトウェアにはどのようなものがあるか調べなさい。特に Unix では
+ どのようなものが有名であるか調べること。また、XML文書を編集するための
+ テキストエディタにどのようなものがあるか調べなさい。
+\end{Problem}
+テキストエディタでSVGファイルを作成するときの注意を次にあげておきます。
+\begin{itemize}
+ \item SVGファイルの標準の文字コードはUTF-8です。Windows のメモ帳では文
+			 字コードをUTF-8 で保存するとファイルの先頭にBOMと呼ばれるコードが
+			 付き、XML形式のファイルとしては正しくないものになってしまいます。
+			 エディタによっては保存する文字コードにこのBOMなしで保存を選択でき
+			 るものがあります。
+ \item SVGファイルの内容はHTMLファイルのようにタグをつけた形で記述します。
+       タグで定義されるものを要素と呼びます。
+ \item HTMLファイルのタグでは次のようなことが可能です。
+\begin{itemize}
+ \item 要素名は大文字小文字の区別がなく, 要素の開始を表す部分と終了を表す
+       部分で大文字小文字が違っていても問題はおきません。
+ \item 改行を示す\ElmH{BR}のように終了部分がない要素もあります。
+\end{itemize}
+ \item SVGファイルは厳
+       密なXMLの構文に従うので要素の開始部分に対応する対応する終了部分を必ず記
+       述する必要があります(簡略な形式もあります)。また、大文字小文字も
+       完全に一致している必要があります。うまく動かないときにはこの点を
+       確かめましょう\footnote{厳密なXMLの構文に従うHTMLの文書としては
+       XHTMLの形式があります。この形式では\ElmH{BR}の代わりに
+       \ShowElm{BR/} と記述することで終了タグが不要になります。}。
+ \item 要素などに記述する単語は英語です。複数形を示す\texttt{s}がついて
+       いるのを忘れたりするだけで動かなくなるのでよくチェックしましょう。
+ \item ファイルの拡張子は \texttt{svg} が標準です。
+\end{itemize}
+
+このテキストではいろいろなSVGファイルのリストが出てきます。リストの入力
+に対しては次のことに注意してください。
+\begin{itemize}
+ \item リストの各行の先頭には行番号が書いてありますが, これは
+       説明のためにつけたものなので, エディタで入力するときは必要
+       ありません。
+ \item 要素の間の空白は原則的にはひとつ以上あれば十分です。見やすく読み
+       やすくなるようにきれいに記述しましょう。
+\end{itemize}
+
+\Chrome におけるXML文書としてのエラーがあった場合の表示例を解説します。
+\SVGListN{XML文書としてエラーがあった場合}{first}{first}
+
+リスト\ref{first}では6行目で
+\texttt{x="0" y="0"} と記すべきところを \texttt{x="0"y="0"} と空白を入れ
+       なかった場合のエラーの表示です。
+
+\Chrome{} では
+エラーがあった位置を行数と桁で指摘してくれます。
+\ShowFig{0.6}{ht}{first-error}{\Chrome におけるエラーメッセージ}
+{first-error}
+
+\newpage
+これでよくわからない場合には
+\href{http://w3c.github.io/developers/tools/}{http://w3c.github.io/developers/tools/}
+を利用する方法があります(図\ref{validator})。
+\ShowFig{0.47}{ht}{validator}{Validatorのトップ画面}{validator}
+\begin{enumerate}
+ \item 図\ref{validator}でNu Html Checkerをクリックすると図
+			 \ref{nu-checker}が表示されます。
+\ShowFig{0.47}{ht}{nu-checker}{Nu Html Checkerの画面}
+{nu-checker}
+			 \newpage
+ \item ここで「Check by」のプルダウンメニュで「file upload」を設定し、
+       「ファイル選択」でチェックしたいファイルを指定します図\ref{file-upload}。
+\ShowFig{0.47}{ht}{file-upload}{ファイルのアップロード}{file-upload}
+ \item ここで「check」のボタンを押すとデータが送られてデータの検証
+       が行われます(図\ref{result})。
+\ShowFig{0.47}{ht}{result}{検証結果の表示画面}
+{result}
+
+			 このページを下のほうに間違いの理由と場所がより具体的に指摘されて
+			 います。
+\end{enumerate}
+\iffalse
+\begin{Problem}\upshape
+ \IEn、 \FFn や Chrome でエラー表示がどのようになるかチェックしなさい。
+\end{Problem}
+\fi
+\input CH2/0201svgfirst.tex
+\input CH2/0202circle.tex
+\input CH2/0230gradiation.tex
+\input CH2/0240opacity.tex
+%\section{HTML文書内に\SVG を取り込む}

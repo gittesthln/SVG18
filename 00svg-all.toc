@@ -1,0 +1,174 @@
+\contentsline {chapter}{\numberline {第1章}SVGについて}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}SVGとはなにか}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}{XML}とは}{2}{section.1.2}
+\contentsline {section}{\numberline {1.3}SVGの画像を表示する方法}{4}{section.1.3}
+\contentsline {section}{\numberline {1.4}HTML5について}{5}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}HTML5までの道程}{5}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}HTML5 における新機能}{5}{subsection.1.4.2}
+\contentsline {chapter}{\numberline {第2章}SVG入門}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}SVGファイルを作成する方法と作成上の注意}{7}{section.2.1}
+\contentsline {section}{\numberline {2.2}SVGの基礎}{11}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}座標系について}{11}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}{\upshape SVG} 文書におけるコメントの記入方法}{11}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}色について}{11}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3}直線}{12}{section.2.3}
+\contentsline {paragraph}{フィックの錯視}{14}{section*.2}
+\contentsline {paragraph}{ミューラー$\cdot $ライヤーの錯視}{15}{section*.3}
+\contentsline {section}{\numberline {2.4}長方形}{18}{section.2.4}
+\contentsline {paragraph}{ポッケンドルフの錯視}{19}{section*.4}
+\contentsline {paragraph}{色の対比}{20}{section*.5}
+\contentsline {paragraph}{ヘルマン格子}{21}{section*.6}
+\contentsline {section}{\numberline {2.5}円と楕円}{22}{section.2.5}
+\contentsline {paragraph}{周りの大きさで見え方が変わる}{23}{section*.7}
+\contentsline {section}{\numberline {2.6}グラデーション}{25}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}線形グラデーション}{26}{subsection.2.6.1}
+\contentsline {paragraph}{線形グラデーションの基礎}{26}{section*.8}
+\contentsline {subsubsection}{線形グラデーションの向きを変える}{27}{section*.9}
+\contentsline {paragraph}{{\upshape \texttt {gradientUnits}}の値の違い}{29}{section*.10}
+\contentsline {subsection}{\numberline {2.6.2}放射グラデーション}{33}{subsection.2.6.2}
+\contentsline {section}{\numberline {2.7}不透明度}{35}{section.2.7}
+\contentsline {chapter}{\numberline {第3章}SVGの図形}{39}{chapter.3}
+\contentsline {section}{\numberline {3.1}折れ線と多角形}{39}{section.3.1}
+\contentsline {section}{\numberline {3.2}道のり(Path)}{43}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}直線の組み合わせ}{44}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}楕円の一部となる曲線}{46}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}B\'{e}zier曲線}{50}{subsection.3.2.3}
+\contentsline {subsubsection}{3次のB\'{e}zier曲線の定義}{50}{section*.11}
+\contentsline {subsubsection}{2次のB\'{e}zier曲線}{54}{section*.12}
+\contentsline {subsubsection}{円を{B\'{e}zier}曲線で近似する}{55}{section*.13}
+\contentsline {section}{\numberline {3.3}{\upshape \texttt {transform}}についての補足}{56}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}原点以外を中心とする回転}{57}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}座標軸方向へのゆがみ}{58}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}一般の線形変換}{60}{subsection.3.3.3}
+\contentsline {paragraph}{{\upshape \texttt {translate(a,b)}}の場合}{60}{section*.14}
+\contentsline {paragraph}{{\upshape \texttt {rotate($\alpha $)}}の場合}{60}{section*.15}
+\contentsline {paragraph}{{\upshape \texttt {scale(a,b)}}の場合}{61}{section*.16}
+\contentsline {paragraph}{{\upshape \texttt {skewX($\alpha $)}}、{\upshape \texttt {skewY($\alpha $)}}の場合}{61}{section*.17}
+\contentsline {section}{\numberline {3.4}SVGパターン}{61}{section.3.4}
+\contentsline {section}{\numberline {3.5}画像の取り込み}{67}{section.3.5}
+\contentsline {section}{\numberline {3.6}画像の一部を見せる}{69}{section.3.6}
+\contentsline {chapter}{\numberline {第4章}アニメーション}{73}{chapter.4}
+\contentsline {section}{\numberline {4.1}アニメーションにおける属性}{73}{section.4.1}
+\contentsline {section}{\numberline {4.2}位置を動かす({\upshape \texttt {<animateTransform>}} 要素)}{74}{section.4.2}
+\contentsline {paragraph}{平行移動}{74}{section*.18}
+\contentsline {paragraph}{回転}{75}{section*.19}
+\contentsline {paragraph}{拡大縮小}{76}{section*.20}
+\contentsline {section}{\numberline {4.3}道のりに沿ったアニメーション({\upshape \texttt {<animateMotion>}} 要素)}{78}{section.4.3}
+\contentsline {section}{\numberline {4.4}いろいろな属性に動きをつける}{79}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}一般の属性に変化をつける({\upshape \texttt {<animate>}} 要素)}{79}{subsection.4.4.1}
+\contentsline {paragraph}{色の変化}{79}{section*.21}
+\contentsline {paragraph}{長方形の大きさの変化}{80}{section*.22}
+\contentsline {paragraph}{図形の形の変化}{80}{section*.23}
+\contentsline {paragraph}{グラデーションを横に動かす}{82}{section*.24}
+\contentsline {subsection}{\numberline {4.4.2}属性値をすぐに変える---{\upshape \texttt {<set>}} 要素を利用したアニメーション}{83}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.5}複数の値を指定する({\upshape \texttt {keyTimes}},{\upshape \texttt {values}})}{83}{section.4.5}
+\contentsline {section}{\numberline {4.6}イベントを利用したアニメーション}{84}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}イベントとは}{84}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}マウスのイベントを利用したアニメーション}{84}{subsection.4.6.2}
+\contentsline {subsection}{\numberline {4.6.3}アニメーション終了のイベントを利用する}{86}{subsection.4.6.3}
+\contentsline {section}{\numberline {4.7}アニメーションがついた錯視図形}{88}{section.4.7}
+\contentsline {paragraph}{追いかけっこをする長方形}{88}{section*.25}
+\contentsline {chapter}{\numberline {第5章}文字列の表示}{91}{chapter.5}
+\contentsline {section}{\numberline {5.1}文字列表示の基礎}{91}{section.5.1}
+\contentsline {section}{\numberline {5.2}部分的に文字の表示を変える方法}{92}{section.5.2}
+\contentsline {section}{\numberline {5.3}文字をグラデーションで塗る}{94}{section.5.3}
+\contentsline {section}{\numberline {5.4}道程に沿った文字列の配置}{96}{section.5.4}
+\contentsline {section}{\numberline {5.5}円周上に沿って文字列が移動するアニメーション}{97}{section.5.5}
+\contentsline {chapter}{\numberline {第6章}フィルタ}{101}{chapter.6}
+\contentsline {section}{\numberline {6.1}フィルターに関する一般的な注意}{101}{section.6.1}
+\contentsline {section}{\numberline {6.2}画像をぼかす({\upshape \texttt {feGaussianBlur}フィルタ})}{101}{section.6.2}
+\contentsline {section}{\numberline {6.3}影をつける({\upshape \texttt {feOffset}フィルタ}と{\upshape \texttt {feMerge}フィルタ})}{105}{section.6.3}
+\contentsline {section}{\numberline {6.4}画像を合成する({\upshape \texttt {feImage}フィルタ}と{\upshape \texttt {feBlend}フィルタ})}{106}{section.6.4}
+\contentsline {section}{\numberline {6.5}与えられた画像の色を変える}{109}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}\ElmF {feColorMatrix}}{109}{subsection.6.5.1}
+\contentsline {paragraph}{{\upshape \texttt {matrix}}}{111}{section*.26}
+\contentsline {paragraph}{{\upshape \texttt {hueRotate}}{}}{112}{section*.27}
+\contentsline {paragraph}{{\upshape \texttt {saturate}}}{115}{section*.28}
+\contentsline {paragraph}{{\upshape \texttt {luminanceToAlpha}}{}}{116}{section*.29}
+\contentsline {subsection}{\numberline {6.5.2}{\upshape \texttt {feComponentTransfer}フィルタ}}{116}{subsection.6.5.2}
+\contentsline {section}{\numberline {6.6}画像を単一色で塗りつぶす({\upshape \texttt {feFlood}フィルタ})}{116}{section.6.6}
+\contentsline {section}{\numberline {6.7}複雑な画像の合成({\upshape \texttt {feComposite}フィルタ})}{118}{section.6.7}
+\contentsline {section}{\numberline {6.8}光を当てる}{120}{section.6.8}
+\contentsline {subsection}{\numberline {6.8.1}光源の種類}{121}{subsection.6.8.1}
+\contentsline {subsubsection}{Distant Light}{121}{section*.30}
+\contentsline {subsubsection}{Point Light}{121}{section*.31}
+\contentsline {subsubsection}{Spot Light}{121}{section*.32}
+\contentsline {subsection}{\numberline {6.8.2}{\upshape \texttt {feDeffuseLighting}フィルタ}}{121}{subsection.6.8.2}
+\contentsline {subsection}{\numberline {6.8.3}{\upshape \texttt {feSpecularLighting}フィルタ}}{122}{subsection.6.8.3}
+\contentsline {section}{\numberline {6.9}{\upshape \texttt {feTurbulence}フィルタ}}{123}{section.6.9}
+\contentsline {chapter}{\numberline {第7章}JavaScriptを利用したSVG図形の生成}{125}{chapter.7}
+\contentsline {section}{\numberline {7.1}インターラクティブなSVGを作成するための準備}{125}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}JavaScript}{125}{subsection.7.1.1}
+\contentsline {subsubsection}{JavaScriptとは}{125}{section*.33}
+\contentsline {subsection}{\numberline {7.1.2}DOM(Docunment Object Model)}{126}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}DOM のメソッドとプロパティ}{131}{subsection.7.1.3}
+\contentsline {section}{\numberline {7.2}イベント}{133}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}イベント概説}{133}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}{\upshape SVG} 文書や HTML における代表的なイベント}{134}{subsection.7.2.2}
+\contentsline {section}{\numberline {7.3}JavaScriptによる{\upshape SVG} 文書のマウスイベントの処理}{134}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}マウスに関するイベント処理}{134}{subsection.7.3.1}
+\contentsline {subsubsection}{マウスイベントオブジェクトについて}{134}{section*.34}
+\contentsline {subsubsection}{クリックされたオブジェクトの属性値を表示する}{136}{section*.35}
+\contentsline {subsubsection}{クリックされたオブジェクトの属性値を変える}{139}{section*.36}
+\contentsline {subsubsection}{他のオブジェクトの属性値を変える}{140}{section*.37}
+\contentsline {subsubsection}{クリックした位置をSVG内に表示する}{142}{section*.38}
+\contentsline {subsection}{\numberline {7.3.2}イベントの処理の詳細}{144}{subsection.7.3.2}
+\contentsline {subsubsection}{DOM Level 2 のイベント処理モデル}{144}{section*.39}
+\contentsline {subsubsection}{リスト\ref {js-click-all}の改良}{145}{section*.40}
+\contentsline {subsubsection}{イベントの伝播のキャンセル}{146}{section*.41}
+\contentsline {subsection}{\numberline {7.3.3}マウスのドラッグを処理する}{146}{subsection.7.3.3}
+\contentsline {subsubsection}{ドラッグとは}{146}{section*.42}
+\contentsline {subsubsection}{オブジェクトのドラッグ処理の例}{147}{section*.43}
+\contentsline {subsection}{\numberline {7.3.4}オブジェクトを追加する}{151}{subsection.7.3.4}
+\contentsline {section}{\numberline {7.4}起動時にJavaScriptで要素を作成する}{157}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}任意の形の曲線を描く}{157}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}JavaScriptのオブジェクトとJSON}{158}{subsection.7.4.2}
+\contentsline {subsubsection}{JavaScriptのオブジェクト}{158}{section*.44}
+\contentsline {subsubsection}{JSON}{160}{section*.45}
+\contentsline {subsection}{\numberline {7.4.3}SVGのオブジェクトを操作するための関数}{161}{subsection.7.4.3}
+\contentsline {subsection}{\numberline {7.4.4}ツェルナーの錯視図形}{164}{subsection.7.4.4}
+\contentsline {subsection}{\numberline {7.4.5}一定時間経過後に関数をよびだす(自前でアニメーションを作成する)}{168}{subsection.7.4.5}
+\contentsline {section}{\numberline {7.5}HTML文書とその中にある SVG 要素の間でデータ交換する}{175}{section.7.5}
+\contentsline {section}{\numberline {7.6}より進んだ JavaScriptプログラミング}{184}{section.7.6}
+\contentsline {subsection}{\numberline {7.6.1}配列のメソッドを使う}{184}{subsection.7.6.1}
+\contentsline {subsection}{\numberline {7.6.2}クロージャの利用によるグローバル変数の個数の減少}{188}{subsection.7.6.2}
+\contentsline {subsubsection}{変数のスコープと仮引数への値の渡し方}{188}{section*.46}
+\contentsline {subsubsection}{クロージャ}{190}{section*.47}
+\contentsline {subsection}{\numberline {7.6.3}WebStorage}{191}{subsection.7.6.3}
+\contentsline {chapter}{\numberline {第8章}WebサーバーでSVG図形のデータを作る}{195}{chapter.8}
+\contentsline {section}{\numberline {8.1}Webサーバーを利用するための基礎知識}{195}{section.8.1}
+\contentsline {section}{\numberline {8.2}PHPプログラムでSVGファイルを作成する}{196}{section.8.2}
+\contentsline {paragraph}{\texttt {printHeader(\$width, \$height)}}{199}{section*.48}
+\contentsline {paragraph}{\texttt {outputSpaces(\$n)}}{199}{section*.49}
+\contentsline {paragraph}{\texttt {outputTag(\$tagName, \$attributes, \$close=false)}}{200}{section*.50}
+\contentsline {paragraph}{\texttt {closeTag()}}{201}{section*.51}
+\contentsline {paragraph}{\texttt {closeSVG()}}{201}{section*.52}
+\contentsline {section}{\numberline {8.3}\texttt {header}関数について}{203}{section.8.3}
+\contentsline {section}{\numberline {8.4}ブラウザを区別する}{205}{section.8.4}
+\contentsline {section}{\numberline {8.5}Ajax}{206}{section.8.5}
+\contentsline {subsection}{\numberline {8.5.1}Ajaxとは}{206}{subsection.8.5.1}
+\contentsline {subsection}{\numberline {8.5.2}Ajaxの例}{207}{subsection.8.5.2}
+\contentsline {section}{\numberline {8.6}jQuery}{213}{section.8.6}
+\contentsline {subsection}{\numberline {8.6.1}jQueryとは}{213}{subsection.8.6.1}
+\contentsline {subsection}{\numberline {8.6.2}jQueryの基本}{213}{subsection.8.6.2}
+\contentsline {subsubsection}{jQuery()関数とjQueryオブジェクト}{213}{section*.53}
+\contentsline {subsubsection}{jQueryオブジェクトのメソッド}{214}{section*.54}
+\contentsline {paragraph}{HTML属性の取得と設定}{214}{section*.55}
+\contentsline {paragraph}{CSS属性の取得と設定}{215}{section*.56}
+\contentsline {paragraph}{HTMLフォーム要素の値の取得と設定}{215}{section*.57}
+\contentsline {paragraph}{要素のコンテンツの取得と設定}{215}{section*.58}
+\contentsline {subsection}{\numberline {8.6.3}ドキュメントの構造の変更}{215}{subsection.8.6.3}
+\contentsline {subsection}{\numberline {8.6.4}イベントハンドラーの取り扱い}{215}{subsection.8.6.4}
+\contentsline {subsection}{\numberline {8.6.5}Ajaxの処理}{216}{subsection.8.6.5}
+\contentsline {subsection}{\numberline {8.6.6}jQuery のサンプル}{216}{subsection.8.6.6}
+\contentsline {subsubsection}{HTMLとSVGでのデータの交換}{216}{section*.59}
+\contentsline {subsubsection}{jQueryにおけるAjaxの利用}{220}{section*.60}
+\contentsline {chapter}{\numberline {付 録A }SVGで利用できる色名}{付録 1}{appendix.A}
+\contentsline {chapter}{\numberline {付 録B }参考文献について}{付録 5}{appendix.B}
+\contentsline {chapter}{\numberline {付 録C }CSSについて}{付録 9}{appendix.C}
+\contentsline {chapter}{索引}{付録 12}{Item.89}
+\contentsline {section}{SVGの用語}{付録 12}{section*.62}
+\contentsline {section}{HTMLの用語}{付録 19}{section*.62}
+\contentsline {section}{JavaScriptの用語}{付録 21}{section*.62}
+\contentsline {section}{PHPの用語}{付録 26}{section*.62}
+\contentsline {section}{一般}{付録 27}{section*.62}
