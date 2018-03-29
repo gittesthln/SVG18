@@ -6,9 +6,9 @@
 \AtBeginShipoutFirst{\special{pdf:tounicode 90ms-RKSJ-UCS2}}\fi
 %\usepackage[T1]{fontenc}
 \usepackage
-%[dvips]
 %
-[dvipdfm]
+[dvips]
+%[dvipdfm]
 {graphicx,color}
 
 %\usepackage{mathptmx}

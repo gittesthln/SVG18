@@ -82,10 +82,10 @@
 \contentsline {subsection}{\numberline {6.4.4}一定時間経過後に関数をよびだす(自前でアニメーションを作成する)}{107}{subsection.6.4.4}
 \contentsline {section}{\numberline {6.5}HTML文書とその中にある SVG 要素の間でデータ交換する}{114}{section.6.5}
 \contentsline {chapter}{\numberline {付 録A }SVGで利用できる色名}{付録 1}{appendix.A}
-\contentsline {chapter}{\numberline {付 録B }参考文献について}{付録 5}{appendix.B}
-\contentsline {chapter}{\numberline {付 録C }CSSについて}{付録 9}{appendix.C}
-\contentsline {chapter}{索引}{付録 12}{Item.67}
-\contentsline {section}{SVGの用語}{付録 12}{section*.30}
-\contentsline {section}{HTMLの用語}{付録 17}{section*.30}
-\contentsline {section}{JavaScriptの用語}{付録 19}{section*.30}
-\contentsline {section}{一般}{付録 22}{section*.30}
+\contentsline {chapter}{\numberline {付 録B }関連図書}{付録 5}{appendix.B}
+\contentsline {chapter}{\numberline {付 録C }CSSについて}{付録 7}{appendix.C}
+\contentsline {chapter}{索引}{付録 10}{Item.67}
+\contentsline {section}{SVGの用語}{付録 10}{section*.29}
+\contentsline {section}{HTMLの用語}{付録 15}{section*.29}
+\contentsline {section}{JavaScriptの用語}{付録 17}{section*.29}
+\contentsline {section}{一般}{付録 20}{section*.29}

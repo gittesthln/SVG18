@@ -1,6 +1,6 @@
 \input Macro/svg-macro.tex
 \Seminortrue
-\newcommand{\YEAR}{2018}
+\newcommand{\YEAR}{2017}
 \title{%
 {\huge 錯視図形を描こう}\\\today 改訂
 \\[1cm]
