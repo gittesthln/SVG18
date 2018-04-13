@@ -42,8 +42,8 @@ SVGではオブジェクトの属性にいろいろなアニメーションが�
          2番目の引数が実行までに要する経過時間で、単位はmsです。ここでは
          $10000ms = 10秒$に設定しています。
 	 \item このメソッドの戻り値は設定した
-       \ElmJ{setTimeout()}{}をキャンセルするときの引数に用います。キャンセ
-       ルするための関数は\ElmJ{clearTimeout}{}です。この関数は
+       \ElmJ{setTimeout()}{}を中断させるときの引数に用います。中断
+       させるための関数は\ElmJ{clearTimeout}{}です。この関数は
        \Line{clearTimeout}に現れています。
  \item したがって、円をクリックすると関数\texttt{resetColor}が呼び出され
        て色が\AttribCVal{green}{}に変わり、10秒後には\AttribCVal{blue}{}
@@ -67,7 +67,7 @@ $5$  秒後、$10$ 秒後に円の色が順に変化するアニメーション�
 この方法を使うとリスト\ref{svg-cycloid}の\keyitem{サイクロイド}を回転す
 る円とその円周上の定点をアニメーションで表示しながらサイクロイドを描く
 \SVG が作成できます。
-\ShowFig{0.6}{ht}{cycloid-animation}
+\ShowFig{0.5}{ht}{cycloid-animation}
 {サイクロイドを描く --- アニメーション版}{cycloid-animation}
 \SVGListN{サイクロイドを描く --- アニメーション版}
     {svg-cycloid-animation}{svg-cycloid-animation}
@@ -94,7 +94,7 @@ $5$  秒後、$10$ 秒後に円の色が順に変化するアニメーション�
 図\ref{show-text-color}は表示されている色名の文字列と表示色が異なるため、
 表示色を読むときに脳が混乱するというものです。
 
-\ShowFig{0.45}{ht}{show-text-color}
+\ShowFig{0.4}{ht}{show-text-color}
 {文字の表示色と文字名が異なる}{show-text-color}
 
 このリストのかわりに表示される文字列は一時期にはひとつだけ表示されるよう
@@ -104,10 +104,10 @@ $5$  秒後、$10$ 秒後に円の色が順に変化するアニメーション�
     {show-text-color}{svg-show-text-color}
 \begin{itemize}
  \item \LineR{dataS}{dataE}で出題する文字列とその色を配列として定義しま
-       す。問題は漢字でもひらがなでも出題できるように配列として定義して
+       す。問題は漢字でもひらがなでも出題できるように配列で定義して
        います。
  \item \Variable{Type}は出題する文字列を漢字、ひらがな、英語のどれ
-       にするかをきめる値を保持します。初期値はひらがな($0$)です。
+       にするための値を保持します。初期値はひらがな($0$)です。
  \item 文字を画面にランダムに配置するため画面を区域に区切ってその中にひ
        とつだけ表示するようにします。\Line{paramX}では横方向の大きさと領
        域の数を定義しています。縦方向は\Line{paramY}で定義しています。
@@ -176,11 +176,8 @@ $5$  秒後、$10$ 秒後に円の色が順に変化するアニメーション�
        関数を定義しています。
 \begin{itemize}
  \item $0$から$1$の間の乱数の生成には関数\ElmJ{Math.random()}を用います。
- \item この値は$0$から$1$の間なので最小値を初めの引数に、最大値を2番目の引数
-       にするために次の式で計算します。
-\begin{center}
- \texttt{(min+(max-min)*Math.random()}
-\end{center}
+ \item この戻り値は$0$から$1$の間なので最小値を初めの引数に、最大値を2番目の引数
+       にするために \texttt{min+(max-min)*Math.random()} で求めます。
  \item 与えられた実数を整数にするために切り捨ての関数\ElmJ{Math.floor()}
        を用います。
 \end{itemize}
@@ -189,7 +186,7 @@ $5$  秒後、$10$ 秒後に円の色が順に変化するアニメーション�
 \begin{Problem}\upshape\label{prob-random}
 図\ref{random}は円の色、大きさ、位置をランダムに決めた円を表示するもので
  す。
-\ShowFig{0.4}{ht}{random}
+\ShowFig{0.35}{ht}{random}
 {色と大きさと位置をランダム決めた円を表示する}{random}
 
 このプログラムは次のものが変化しています。

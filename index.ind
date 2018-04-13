@@ -2,8 +2,8 @@
 \item {\large\bf C}\nopagebreak[4]
   \item \Showattrib {click}(イベント) \dotfill \hyperpage{85}, 
 		\hyperpage{92}, \hyperpage{116}
-  \item \Showattrib {clientY}(イベント) \dotfill \hyperpage{96}
-  \item $\sin {x}$(余弦関数) \dotfill \hyperpage{100}
+  \item \Showattrib {clientY}(イベント) \dotfill \hyperpage{95}
+  \item $\sin {x}$(余弦関数) \dotfill \hyperpage{99}
 
   \indexspace
 \item {\large\bf D}\nopagebreak[4]
@@ -21,23 +21,23 @@
   \indexspace
 \item {\large\bf J}\nopagebreak[4]
   \item JavaScript \dotfill \hyperpage{71}
-    \subitem オブジェクトリテラル \dotfill \hyperpage{119}
+    \subitem オブジェクトリテラル \dotfill \hyperpage{118}
 
   \indexspace
 \item {\large\bf M}\nopagebreak[4]
   \item \Showattrib {mousedown}(イベント) \dotfill \hyperpage{92}, 
-		\hyperpage{94}, \hyperpage{96}
-  \item \Showattrib {mousemove}(イベント) \dotfill \hyperpage{92}, 
-		\hyperpage{94}, \hyperpage{96}
+		\hyperpage{93}, \hyperpage{95}
+  \item \Showattrib {mousemove}(イベント) \dotfill \hyperpage{92--94}, 
+		\hyperpage{96}
   \item \Showattrib {mouseup}(イベント) \dotfill \hyperpage{92}, 
-		\hyperpage{94}, \hyperpage{96}
+		\hyperpage{93}, \hyperpage{95}
 
   \indexspace
 \item {\large\bf O}\nopagebreak[4]
   \item \Showattrib {onbegin}(イベント) \dotfill \hyperpage{80}
   \item \Showattrib {onchange}(イベント) \dotfill \hyperpage{80}
   \item \Showattrib {onclick}(イベント) \dotfill \hyperpage{80}, 
-		\hyperpage{120}
+		\hyperpage{119}
   \item \Showattrib {onend}(イベント) \dotfill \hyperpage{80}
   \item \Showattrib {onload}(イベント) \dotfill \hyperpage{80}, 
 		\hyperpage{85}
@@ -49,7 +49,7 @@
 
   \indexspace
 \item {\large\bf S}\nopagebreak[4]
-  \item $\sin {x}$(正弦関数) \dotfill \hyperpage{100}
+  \item $\sin {x}$(正弦関数) \dotfill \hyperpage{99}
   \item SVG \dotfill \hyperpage{1}
 
   \indexspace
@@ -70,20 +70,20 @@
 
   \indexspace
 \item {\large\bf い}\nopagebreak[4]
-  \item イベント \dotfill \hyperpage{78}
+  \item イベント \dotfill \hyperpage{79}
     \subitem \Showattrib {click} \dotfill \hyperpage{85}, 
 		\hyperpage{92}, \hyperpage{116}
-    \subitem \Showattrib {clientY} \dotfill \hyperpage{96}
+    \subitem \Showattrib {clientY} \dotfill \hyperpage{95}
     \subitem \Showattrib {mousedown} \dotfill \hyperpage{92}, 
-		\hyperpage{94}, \hyperpage{96}
-    \subitem \Showattrib {mousemove} \dotfill \hyperpage{92}, 
-		\hyperpage{94}, \hyperpage{96}
+		\hyperpage{93}, \hyperpage{95}
+    \subitem \Showattrib {mousemove} \dotfill \hyperpage{92--94}, 
+		\hyperpage{96}
     \subitem \Showattrib {mouseup} \dotfill \hyperpage{92}, 
-		\hyperpage{94}, \hyperpage{96}
+		\hyperpage{93}, \hyperpage{95}
     \subitem \Showattrib {onbegin} \dotfill \hyperpage{80}
     \subitem \Showattrib {onchange} \dotfill \hyperpage{80}
     \subitem \Showattrib {onclick} \dotfill \hyperpage{80}, 
-		\hyperpage{120}
+		\hyperpage{119}
     \subitem \Showattrib {onend} \dotfill \hyperpage{80}
     \subitem \Showattrib {onload} \dotfill \hyperpage{80}, 
 		\hyperpage{85}
@@ -92,10 +92,10 @@
     \subitem \Showattrib {onmouseout} \dotfill \hyperpage{80}
     \subitem \Showattrib {onmouseover} \dotfill \hyperpage{80}
     \subitem \Showattrib {onmouseup} \dotfill \hyperpage{80}
-    \subitem クリック \dotfill \hyperpage{78}
-  \item イベントキャプチャリング \dotfill \hyperpage{91}
+    \subitem クリック \dotfill \hyperpage{79}
+  \item イベントキャプチャリング \dotfill \hyperpage{90}
   \item イベントドリブン \dotfill \hyperpage{79}
-  \item イベントバブリング \dotfill \hyperpage{84}, \hyperpage{91}
+  \item イベントバブリング \dotfill \hyperpage{84}, \hyperpage{90}
   \item 色の指定 \dotfill \hyperpage{11}
   \item 色の対比 \dotfill \hyperpage{21}
 
@@ -113,7 +113,8 @@
 \item {\large\bf お}\nopagebreak[4]
   \item 同じ色なのに周りの色で見え方が異なる \dotfill \hyperpage{20}
   \item オブジェクトリテラル
-    \subitem {JavaScript}における\ItemRuler  \dotfill \hyperpage{119}
+    \subitem {JavaScript}における\ItemRuler  \dotfill \hyperpage{118}
+    \subitem キー \dotfill \hyperpage{118}
   \item 親ノード \dotfill \hyperpage{72}
   \item 親要素 \dotfill \hyperpage{14}
   \item 折れ線 \dotfill \hyperpage{39}
@@ -129,7 +130,7 @@
   \item グラデーション \dotfill \hyperpage{25}
     \subitem 線形\relax \ItemRuler  \dotfill \hyperpage{26}
     \subitem 放射\relax \ItemRuler  \dotfill \hyperpage{33}
-  \item クリック \dotfill \hyperpage{78}
+  \item クリック \dotfill \hyperpage{79}
   \item クリックの処理(JavaScript) \dotfill \hyperpage{80}
   \item クレイク・オブライエン効果 \dotfill \hyperpage{35}
 
@@ -142,7 +143,7 @@
 
   \indexspace
 \item {\large\bf さ}\nopagebreak[4]
-  \item サイクロイド \dotfill \hyperpage{98}, \hyperpage{109}
+  \item サイクロイド \dotfill \hyperpage{98}, \hyperpage{108}
   \item ザヴィニの錯視 \dotfill \hyperpage{46}
   \item 錯視
     \subitem 色の対比 \dotfill \hyperpage{21}
@@ -159,7 +160,7 @@
 		\hyperpage{59}
     \subitem シェパードの\ItemRuler  \dotfill \hyperpage{42}
     \subitem ジャッドの\ItemRuler  \dotfill \hyperpage{54}
-    \subitem ツェルナーの\ItemRuler  \dotfill \hyperpage{103}
+    \subitem ツェルナーの\ItemRuler  \dotfill \hyperpage{102}
     \subitem デルブーフの\ItemRuler  \dotfill \hyperpage{25}
     \subitem ネックレスの糸 \dotfill \hyperpage{105}
     \subitem バインジオ$\bullet $ピンナの\ItemRuler  \dotfill 
@@ -167,15 +168,15 @@
     \subitem ひし形を用いたクレイク・オブライエン効果 \dotfill 
 		\hyperpage{29}
     \subitem ピラミッドの稜線 \dotfill \hyperpage{38}
-    \subitem フィックの\ItemRuler  \dotfill \hyperpage{14}, 
-		\hyperpage{53}, \hyperpage{98}
+    \subitem フィックの\ItemRuler  \dotfill \hyperpage{15}, 
+		\hyperpage{53}, \hyperpage{97}
     \subitem 浮動する円 \dotfill \hyperpage{49}
     \subitem ブルドンの\ItemRuler  \dotfill \hyperpage{42}
     \subitem ヘルマン格子 \dotfill \hyperpage{21}
-    \subitem ポッケンドルフの\ItemRuler  \dotfill \hyperpage{19}
+    \subitem ポッケンドルフの\ItemRuler  \dotfill \hyperpage{18}
     \subitem マッハバンド\ItemRuler  \dotfill \hyperpage{27}
     \subitem ミューラー$\cdot $ライヤーの\ItemRuler  \dotfill 
-		\hyperpage{15}
+		\hyperpage{16}
     \subitem モーガンのねじれひも \dotfill \hyperpage{48}
     \subitem ゆがんだ正方形 \dotfill \hyperpage{61}
   \item ザバーニョの錯視 \dotfill \hyperpage{27}, \hyperpage{59}
@@ -187,7 +188,7 @@
 
   \indexspace
 \item {\large\bf せ}\nopagebreak[4]
-  \item 正弦関数 \dotfill \hyperpage{100}
+  \item 正弦関数 \dotfill \hyperpage{99}
   \item 線形グラデーション \dotfill \hyperpage{26}
 
   \indexspace
@@ -213,12 +214,12 @@
 
   \indexspace
 \item {\large\bf つ}\nopagebreak[4]
-  \item ツェルナーの錯視 \dotfill \hyperpage{103}
+  \item ツェルナーの錯視 \dotfill \hyperpage{102}
 
   \indexspace
 \item {\large\bf て}\nopagebreak[4]
   \item テキストエディタ \dotfill \hyperpage{7}
-  \item テキストノード \dotfill \hyperpage{73}, \hyperpage{90}
+  \item テキストノード \dotfill \hyperpage{73}, \hyperpage{89}
   \item デルブーフの錯視 \dotfill \hyperpage{25}
   \item テンプレートリテラル \dotfill \hyperpage{83}
 
@@ -229,7 +230,7 @@
   \indexspace
 \item {\large\bf な}\nopagebreak[4]
   \item 名前空間 \dotfill \hyperpage{13}, \hyperpage{77}, 
-		\hyperpage{94}, \hyperpage{96}
+		\hyperpage{94}, \hyperpage{95}
 
   \indexspace
 \item {\large\bf ね}\nopagebreak[4]
@@ -255,12 +256,12 @@
 
   \indexspace
 \item {\large\bf ふ}\nopagebreak[4]
-  \item フィックの錯視 \dotfill \hyperpage{14}, \hyperpage{53}, 
-		\hyperpage{98}
+  \item フィックの錯視 \dotfill \hyperpage{15}, \hyperpage{53}, 
+		\hyperpage{97}
   \item 浮動する円 \dotfill \hyperpage{49}
   \item 不透明度 \dotfill \hyperpage{35}
   \item ブルドンの錯視 \dotfill \hyperpage{42}
-  \item プロパティ \dotfill \hyperpage{77}
+  \item プロパティ \dotfill \hyperpage{76}
 
   \indexspace
 \item {\large\bf へ}\nopagebreak[4]
@@ -269,7 +270,7 @@
   \indexspace
 \item {\large\bf ほ}\nopagebreak[4]
   \item 放射グラデーション \dotfill \hyperpage{33}
-  \item ポッケンドルフの錯視 \dotfill \hyperpage{19}
+  \item ポッケンドルフの錯視 \dotfill \hyperpage{18}
 
   \indexspace
 \item {\large\bf ま}\nopagebreak[4]
@@ -278,12 +279,12 @@
 
   \indexspace
 \item {\large\bf み}\nopagebreak[4]
-  \item ミューラー$\cdot $ライヤーの錯視 \dotfill \hyperpage{15}
+  \item ミューラー$\cdot $ライヤーの錯視 \dotfill \hyperpage{16}
 
   \indexspace
 \item {\large\bf め}\nopagebreak[4]
-  \item メソッド \dotfill \hyperpage{77}
-  \item メッセージボックス \dotfill \hyperpage{83}
+  \item メソッド \dotfill \hyperpage{76}
+  \item メッセージボックス \dotfill \hyperpage{82}
 
   \indexspace
 \item {\large\bf も}\nopagebreak[4]
@@ -300,7 +301,7 @@
   \indexspace
 \item {\large\bf よ}\nopagebreak[4]
   \item 要素ノード \dotfill \hyperpage{73}
-  \item 余弦関数 \dotfill \hyperpage{100}
+  \item 余弦関数 \dotfill \hyperpage{99}
 
   \indexspace
 \item {\large\bf る}\nopagebreak[4]

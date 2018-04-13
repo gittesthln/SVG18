@@ -21,7 +21,7 @@ HTML文書はXML文書としての類似性があり、DOMで操作すること�
 変わります。
 \end{itemize}
 
-\ShowFig{0.55}{ht}{ShowSetClickPos2}
+\ShowFig{0.5}{ht}{ShowSetClickPos2}
 {クリック位置をHTMLで表示し、HTMLのデータからSVGの図形を動かす}{ShowSetClickPos}
 %
 \HTMLListMN{クリック位置をHTMLで表示し、HTMLのデータからSVGの図形を動かす}%
@@ -70,11 +70,11 @@ HTML文書はXML文書としての類似性があり、DOMで操作すること�
 この読み込まれるCSSファイルは次のようになっています。
 \CSSListN{基本的なCSSファイル}{HTML}{HTML.css}
 \begin{itemize}
- \item \ElmH{h1}には\AttribH{class}属性があり、その値が\texttt{display}と
+ \item \ElmH{h1}の\AttribH{class}属性の値が\texttt{display}と
        なっています。これに対応するCSSのセレクタは\AttribH{class}属性の
-       値の前に\texttt{.}(ピリオド)をつけたものになります。
+       値の前に\texttt{.}(ピリオド)をつけたものになります(\LineR{displayS}{displayE})。
 
-       CSSファイルの\Lines{displayS}{displayE}がその部分になります。ここ
+       ここ
        ではフォントの大きさ(\CSS{font-size})を指定しています。この値には
        単位が必要です。
  \item SVG内の\Elm{text}には\AttribH{class}属性で\texttt{textStyle}が指
@@ -124,28 +124,28 @@ HTML文書はXML文書としての類似性があり、DOMで操作すること�
 	<option value="red">赤</option>
 	<option value="yellow">黄色</option>
 \end{Verbatim}
- \item \LineR{InitOptS}{InitOptE}で属性値となる色の名称と日本語の表示に
-       使用する文
-       字列を\keysub{オブジェクトリテラル}{\JS}%
+ \item \LineR{InitOptS}{InitOptE}で属性値となる色の名称と日本語表示のた
+       めの文字列を\keysub{オブジェクトリテラル}{\JS}%
        \IndexSet{{\JS}}{オブジェクトリテラル}{E}{における}{}%
        で定義しています。オブジェクトリテラルでは配列の添え字に文字列が
        使用できます。
-\iffalse
-       左側にある文字列は\keysub{キー}{オブジェクトリテラル}{の}と呼
-       ばれます。\texttt{:}をはさんだ右側はこのキーにおける値であり、こ
+			 
+\iffalse\else
+       左側の文字列は\keysub{キー}{オブジェクトリテラル}{の}、
+       \texttt{:}をはさんだ右側はこのキーにおける値であり、こ
        こには任意の\JS のオブジェクトを記述できます。値は「オブジェクト
        名[キー]」の
        形で取り扱うことができます(\Line{createTextNode}参照)。
 \fi
- \item このデータを用いて\LineR{makeOptS}{InitOptE}で
+ \item これを用いて\LineR{makeOptS}{InitOptE}で
        \AttribH{name}属性が\texttt{SetColor}のリストボックスの内容を作
        成しています。
- \item オブジェクトリテラルのすべての要素にアクセスする方法は\ElmJ{for}\texttt{( 変
-       数名 in オブジェクト名)}です(\Line{makeOptS})。この変数に配列の引数がセッ
-       トされます。ここでは英語の文字列が値として代入されます。
+ \item オブジェクトリテラルのすべての要素にアクセスするために\ElmJ{for}\texttt{( 変
+       数名 in オブジェクト名)}を用います(\Line{makeOptS})。この変数に配
+       列のキーがセットされます。ここでは英語の文字列が値として代入されます。
  \item \Line{createOption}で\ElmH{option}を作成し、
        \Line{setValue}\AttribH{value}に
-       色名(ここでは\ElmJ{for}内の変数であるキーの値\texttt{Color})を設
+       色名(\ElmJ{for}内の変数であるキーの値\texttt{Color})を設
        定しています。この値は英語の色名なので円の色の
        設定にそのまま利用できます。
  \item \ElmH{option}に表示する文字列を設定するために
@@ -165,13 +165,13 @@ HTML文書はXML文書としての類似性があり、DOMで操作すること�
   \item \Line{setEventListner}で定義されている関数\texttt{click(event)}は
        \SVG 上でマウスがクリックされたときに呼び出されます。イベントリス
        ナーの定義は\LineR{ClickS}{ClickE}で定義されています。
- \item \Line{Set}では「設定」ボタンがクリックしたとき(\Event{onclick})に
-       呼び出される関数を「\texttt{refresh}」に定義しています。
+ \item \Line{Set}では「設定」ボタンのクリック(\Event{onclick})で
+       呼び出される関数を「\texttt{refresh}」で定義しています。
        \ElmJ{function}で定義された関数名はそのままグローバル変数として使
        用できることに注意してください。
  \item ブラウザ上でクリックするとその位置は文書全体の位置
        になり、SVG文書内での位置とは異なります。要素が配置された位置を得
-       るための関数が\ElmJ{getBoundingClientRect}です(\Line{CorrectS})。
+       る関数が\ElmJ{getBoundingClientRect}です(\Line{CorrectS})。
  \item 実際にクリックできる範囲は\Elm{svg}の中で下、右にそれぞれ$5$ピク
 			 セル移動していますので、その分も配置からずらします
 			 (\Lines{SetOffset1}{SetOffset2})。
@@ -187,9 +187,9 @@ HTML文書はXML文書としての類似性があり、DOMで操作すること�
 \begin{Problem}\upshape
  リスト\ref{ShowSetClickPosL}について次のことを行いなさい。
 \begin{enumerate}
- \item 表題のフォントの大きさを変えてもクリックする位置は正しく求められ
+ \item 表題のフォントの大きさを変えてもクリックの位置は正しく表示され
        ることを確認しなさい。
- \item 起動後、ウィンドウの幅を狭くして(または広くして)表題の部分の行数を変化さ
+ \item 起動後、ウィンドウの幅を狭くして表題の部分の行数を変化さ
        せるとクリックした位置と円が設定される場所が異なることを確認しな
        さい。\label{correctError}
  \item \ref{correctError}の不具合を直しなさい
@@ -197,7 +197,7 @@ HTML文書はXML文書としての類似性があり、DOMで操作すること�
 \end{Problem}
 図\ref{pinna.html.fig}は図\ref{pinna}において\HTML から色を設定できるように
 したものです。
-\ShowFig{0.5}{ht}{pinna.html}
+\ShowFig{0.4}{ht}{pinna.html}
 {バインジオ$\bullet$ピンナの錯視図形をテキストボックスから設定}{pinna.html.fig}
 
 右側に曲線の色を入力するテキストボックスと、設定を図に反映
@@ -219,7 +219,7 @@ CSSファイルと\JS ファイルは外部ファイルとしています。
        から6回呼び出される関数\texttt{Drawfigure()}の基本的なアルゴリズ
        ムは全く同じです。
  \item すべてのファイルが呼び込まれた後に発生するイベントの処理関数
-       \texttt{window.onload}が\Lines{init1}{init2}で定義されています。
+       \texttt{window.onload}が\LineR{init1}{init2}で定義されています。
        \begin{itemize}
         \item \Line{getElm1}と\Line{getElm2}で設定された色がある要素を
               変数に格納しています。
