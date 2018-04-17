@@ -6,8 +6,16 @@
 \indexentry{::red あたいいろ@\Showattrib {red}(値--色)::::::::|hyperpage}{11}
 \indexentry{::\Showattrib {rgb}::値--色::::::|hyperpage}{11}
 \indexentry{::rgb あたいいろ@\Showattrib {rgb}(値--色)::::::::|hyperpage}{11}
+\indexentry{::\Showattrib {hsl}::値--色::::::|hyperpage}{12}
+\indexentry{::hsl あたいいろ@\Showattrib {hsl}(値--色)::::::::|hyperpage}{12}
+\indexentry{::\Showattrib {hsl}::値--色::::::|hyperpage}{12}
+\indexentry{::hsl あたいいろ@\Showattrib {hsl}(値--色)::::::::|hyperpage}{12}
+\indexentry{::\Showattrib {red}::値--色::::::|hyperpage}{12}
+\indexentry{::red あたいいろ@\Showattrib {red}(値--色)::::::::|hyperpage}{12}
 \indexentry{::\Showattrib {rgb}::値--色::::::|hyperpage}{12}
 \indexentry{::rgb あたいいろ@\Showattrib {rgb}(値--色)::::::::|hyperpage}{12}
+\indexentry{::\Showattrib {red}::値::::::|hyperpage}{12}
+\indexentry{::red あたい@\Showattrib {red}(値)::::::::|hyperpage}{12}
 \indexentry{::\Showattrib {none}::値--色::::::|hyperpage}{12}
 \indexentry{::none あたいいろ@\Showattrib {none}(値--色)::::::::|hyperpage}{12}
 \indexentry{::\Showattrib {stroke-linecap}::図形::::::|hyperpage}{12}
@@ -33,26 +41,26 @@
 \indexentry{::\ShowElm {g}::要素::::::|hyperpage}{13}
 \indexentry{::g (ようそ)@\ShowElm {g}::::::::|hyperpage}{13}
 \indexentry{::transformぞくせい@\Showattrib {transform}::::::::|hyperpage}{13}
-\indexentry{::transformぞくせい@\Showattrib {transform}::::::::|hyperpage}{13}
-\indexentry{::属性値::transformぞくせい@\Showattrib {transform}::T::の::|hyperpage}{13}
 \indexentry{::\Showattrib {translate}::値::::::|hyperpage}{13}
 \indexentry{::translate あたい@\Showattrib {translate}(値)::::::::|hyperpage}{13}
-\indexentry{::\Showattrib {translate}::値::::::|hyperpage}{13}
-\indexentry{::translate あたい@\Showattrib {translate}(値)::::::::|hyperpage}{13}
-\indexentry{::\Showattrib {rotate}::値::::::|hyperpage}{13}
-\indexentry{::rotate あたい@\Showattrib {rotate}(値)::::::::|hyperpage}{13}
-\indexentry{::\Showattrib {rotate}::値::::::|hyperpage}{13}
-\indexentry{::rotate あたい@\Showattrib {rotate}(値)::::::::|hyperpage}{13}
-\indexentry{::\Showattrib {scale}::値::::::|hyperpage}{13}
-\indexentry{::scale あたい@\Showattrib {scale}(値)::::::::|hyperpage}{13}
-\indexentry{::\Showattrib {scale}::値::::::|hyperpage}{13}
-\indexentry{::scale あたい@\Showattrib {scale}(値)::::::::|hyperpage}{13}
-\indexentry{::\Showattrib {scale}::値::::::|hyperpage}{13}
-\indexentry{::scale あたい@\Showattrib {scale}(値)::::::::|hyperpage}{13}
-\indexentry{::\Showattrib {translate}::値::::::|hyperpage}{13}
-\indexentry{::translate あたい@\Showattrib {translate}(値)::::::::|hyperpage}{13}
-\indexentry{::\Showattrib {stroke-linecap}::図形::::::|hyperpage}{14}
-\indexentry{::stroke-linecap ぞくせい(ずけい)@\Showattrib {stroke-linecap}(図形)::::::::|hyperpage}{14}
+\indexentry{::\Showattrib {stroke-linecap}::図形::::::|hyperpage}{13}
+\indexentry{::stroke-linecap ぞくせい(ずけい)@\Showattrib {stroke-linecap}(図形)::::::::|hyperpage}{13}
+\indexentry{::transformぞくせい@\Showattrib {transform}::::::::|hyperpage}{14}
+\indexentry{::属性値::transformぞくせい@\Showattrib {transform}::T::の::|hyperpage}{14}
+\indexentry{::\Showattrib {translate}::値::::::|hyperpage}{14}
+\indexentry{::translate あたい@\Showattrib {translate}(値)::::::::|hyperpage}{14}
+\indexentry{::\Showattrib {translate}::値::::::|hyperpage}{14}
+\indexentry{::translate あたい@\Showattrib {translate}(値)::::::::|hyperpage}{14}
+\indexentry{::\Showattrib {rotate}::値::::::|hyperpage}{14}
+\indexentry{::rotate あたい@\Showattrib {rotate}(値)::::::::|hyperpage}{14}
+\indexentry{::\Showattrib {rotate}::値::::::|hyperpage}{14}
+\indexentry{::rotate あたい@\Showattrib {rotate}(値)::::::::|hyperpage}{14}
+\indexentry{::\Showattrib {scale}::値::::::|hyperpage}{14}
+\indexentry{::scale あたい@\Showattrib {scale}(値)::::::::|hyperpage}{14}
+\indexentry{::\Showattrib {scale}::値::::::|hyperpage}{14}
+\indexentry{::scale あたい@\Showattrib {scale}(値)::::::::|hyperpage}{14}
+\indexentry{::\Showattrib {scale}::値::::::|hyperpage}{14}
+\indexentry{::scale あたい@\Showattrib {scale}(値)::::::::|hyperpage}{14}
 \indexentry{::\ShowElm {line}::要素::::::|hyperpage}{14}
 \indexentry{::line (ようそ)@\ShowElm {line}::::::::|hyperpage}{14}
 \indexentry{::\ShowElm {g}::要素::::::|hyperpage}{14}
@@ -134,27 +142,27 @@
 \indexentry{::defs (ようそ)@\ShowElm {defs}::::::::|hyperpage}{18}
 \indexentry{::\ShowElm {rect}::要素::::::|hyperpage}{18}
 \indexentry{::rect (ようそ)@\ShowElm {rect}::::::::|hyperpage}{18}
-\indexentry{::\ShowElm {rect}::要素::::::|hyperpage}{18}
-\indexentry{::rect (ようそ)@\ShowElm {rect}::::::::|hyperpage}{18}
-\indexentry{::属性::rect (ようそ)@\ShowElm {rect}::T::の::|hyperpage}{18}
-\indexentry{::\Showattrib {x}::図形::::::|hyperpage}{18}
-\indexentry{::x ぞくせい(ずけい)@\Showattrib {x}(図形)::::::::|hyperpage}{18}
-\indexentry{::\Showattrib {y}::図形::::::|hyperpage}{18}
-\indexentry{::y ぞくせい(ずけい)@\Showattrib {y}(図形)::::::::|hyperpage}{18}
-\indexentry{::\Showattrib {width}::図形::::::|hyperpage}{18}
-\indexentry{::width ぞくせい(ずけい)@\Showattrib {width}(図形)::::::::|hyperpage}{18}
-\indexentry{::\Showattrib {height}::図形::::::|hyperpage}{18}
-\indexentry{::height ぞくせい(ずけい)@\Showattrib {height}(図形)::::::::|hyperpage}{18}
-\indexentry{::\Showattrib {stroke-width}::図形::::::|hyperpage}{18}
-\indexentry{::stroke-width ぞくせい(ずけい)@\Showattrib {stroke-width}(図形)::::::::|hyperpage}{18}
-\indexentry{::\Showattrib {stroke}::図形::::::|hyperpage}{18}
-\indexentry{::stroke ぞくせい(ずけい)@\Showattrib {stroke}(図形)::::::::|hyperpage}{18}
-\indexentry{::\Showattrib {fill}::図形::::::|hyperpage}{18}
-\indexentry{::fill ぞくせい(ずけい)@\Showattrib {fill}(図形)::::::::|hyperpage}{18}
-\indexentry{::\Showattrib {rx}::図形::::::|hyperpage}{18}
-\indexentry{::rx ぞくせい(ずけい)@\Showattrib {rx}(図形)::::::::|hyperpage}{18}
-\indexentry{::\Showattrib {ry}::図形::::::|hyperpage}{18}
-\indexentry{::ry ぞくせい(ずけい)@\Showattrib {ry}(図形)::::::::|hyperpage}{18}
+\indexentry{::\ShowElm {rect}::要素::::::|hyperpage}{19}
+\indexentry{::rect (ようそ)@\ShowElm {rect}::::::::|hyperpage}{19}
+\indexentry{::属性::rect (ようそ)@\ShowElm {rect}::T::の::|hyperpage}{19}
+\indexentry{::\Showattrib {x}::図形::::::|hyperpage}{19}
+\indexentry{::x ぞくせい(ずけい)@\Showattrib {x}(図形)::::::::|hyperpage}{19}
+\indexentry{::\Showattrib {y}::図形::::::|hyperpage}{19}
+\indexentry{::y ぞくせい(ずけい)@\Showattrib {y}(図形)::::::::|hyperpage}{19}
+\indexentry{::\Showattrib {width}::図形::::::|hyperpage}{19}
+\indexentry{::width ぞくせい(ずけい)@\Showattrib {width}(図形)::::::::|hyperpage}{19}
+\indexentry{::\Showattrib {height}::図形::::::|hyperpage}{19}
+\indexentry{::height ぞくせい(ずけい)@\Showattrib {height}(図形)::::::::|hyperpage}{19}
+\indexentry{::\Showattrib {stroke-width}::図形::::::|hyperpage}{19}
+\indexentry{::stroke-width ぞくせい(ずけい)@\Showattrib {stroke-width}(図形)::::::::|hyperpage}{19}
+\indexentry{::\Showattrib {stroke}::図形::::::|hyperpage}{19}
+\indexentry{::stroke ぞくせい(ずけい)@\Showattrib {stroke}(図形)::::::::|hyperpage}{19}
+\indexentry{::\Showattrib {fill}::図形::::::|hyperpage}{19}
+\indexentry{::fill ぞくせい(ずけい)@\Showattrib {fill}(図形)::::::::|hyperpage}{19}
+\indexentry{::\Showattrib {rx}::図形::::::|hyperpage}{19}
+\indexentry{::rx ぞくせい(ずけい)@\Showattrib {rx}(図形)::::::::|hyperpage}{19}
+\indexentry{::\Showattrib {ry}::図形::::::|hyperpage}{19}
+\indexentry{::ry ぞくせい(ずけい)@\Showattrib {ry}(図形)::::::::|hyperpage}{19}
 \indexentry{::\Showattrib {stroke-width}::図形::::::|hyperpage}{20}
 \indexentry{::stroke-width ぞくせい(ずけい)@\Showattrib {stroke-width}(図形)::::::::|hyperpage}{20}
 \indexentry{::\Showattrib {width}::図形::::::|hyperpage}{20}
@@ -821,56 +829,48 @@
 \indexentry{::y ぞくせい(ずけい)@\Showattrib {y}(図形)::::::::|hyperpage}{66}
 \indexentry{::\Showattrib {fill}::図形::::::|hyperpage}{66}
 \indexentry{::fill ぞくせい(ずけい)@\Showattrib {fill}(図形)::::::::|hyperpage}{66}
+\indexentry{::\Showattrib {text-anchor}::フォント::::::|hyperpage}{66}
+\indexentry{::text-anchor ぞくせい(ふぉんと)@\Showattrib {text-anchor}(フォント)::::::::|hyperpage}{66}
+\indexentry{::\Showattrib {start}::値--フォント::::::|hyperpage}{66}
+\indexentry{::start あたいふぉんと@\Showattrib {start}(値--フォント)::::::::|hyperpage}{66}
+\indexentry{::\Showattrib {middle}::値--フォント::::::|hyperpage}{66}
+\indexentry{::middle あたいふぉんと@\Showattrib {middle}(値--フォント)::::::::|hyperpage}{66}
+\indexentry{::\Showattrib {end}::値--フォント::::::|hyperpage}{66}
+\indexentry{::end あたいふぉんと@\Showattrib {end}(値--フォント)::::::::|hyperpage}{66}
 \indexentry{::\Showattrib {dominant-baseline}::フォント::::::|hyperpage}{66}
 \indexentry{::dominant-baseline ぞくせい(ふぉんと)@\Showattrib {dominant-baseline}(フォント)::::::::|hyperpage}{66}
-\indexentry{::\ShowElm {text}::要素::::::|hyperpage}{66}
-\indexentry{::text (ようそ)@\ShowElm {text}::::::::|hyperpage}{66}
-\indexentry{::\ShowElm {text}::要素::::::|hyperpage}{66}
-\indexentry{::text (ようそ)@\ShowElm {text}::::::::|hyperpage}{66}
-\indexentry{::\ShowElm {tspan}::要素::::::|hyperpage}{66}
-\indexentry{::tspan (ようそ)@\ShowElm {tspan}::::::::|hyperpage}{66}
-\indexentry{::\Showattrib {text-anchor}::フォント::::::|hyperpage}{67}
-\indexentry{::text-anchor ぞくせい(ふぉんと)@\Showattrib {text-anchor}(フォント)::::::::|hyperpage}{67}
-\indexentry{::\Showattrib {start}::値--フォント::::::|hyperpage}{67}
-\indexentry{::start あたいふぉんと@\Showattrib {start}(値--フォント)::::::::|hyperpage}{67}
-\indexentry{::\Showattrib {middle}::値--フォント::::::|hyperpage}{67}
-\indexentry{::middle あたいふぉんと@\Showattrib {middle}(値--フォント)::::::::|hyperpage}{67}
-\indexentry{::\Showattrib {end}::値--フォント::::::|hyperpage}{67}
-\indexentry{::end あたいふぉんと@\Showattrib {end}(値--フォント)::::::::|hyperpage}{67}
-\indexentry{::\Showattrib {dominant-baseline}::フォント::::::|hyperpage}{67}
-\indexentry{::dominant-baseline ぞくせい(ふぉんと)@\Showattrib {dominant-baseline}(フォント)::::::::|hyperpage}{67}
-\indexentry{::\Showattrib {ideographic}::値--フォント::::::|hyperpage}{67}
-\indexentry{::ideographic あたいふぉんと@\Showattrib {ideographic}(値--フォント)::::::::|hyperpage}{67}
-\indexentry{::\Showattrib {alphabetic}::値--フォント::::::|hyperpage}{67}
-\indexentry{::alphabetic あたいふぉんと@\Showattrib {alphabetic}(値--フォント)::::::::|hyperpage}{67}
-\indexentry{::\Showattrib {hanging}::値--フォント::::::|hyperpage}{67}
-\indexentry{::hanging あたいふぉんと@\Showattrib {hanging}(値--フォント)::::::::|hyperpage}{67}
-\indexentry{::\Showattrib {mathematical}::値--フォント::::::|hyperpage}{67}
-\indexentry{::mathematical あたいふぉんと@\Showattrib {mathematical}(値--フォント)::::::::|hyperpage}{67}
-\indexentry{::\Showattrib {auto}::値--フォント::::::|hyperpage}{67}
-\indexentry{::auto あたいふぉんと@\Showattrib {auto}(値--フォント)::::::::|hyperpage}{67}
-\indexentry{::\Showattrib {baseline-shift}::フォント::::::|hyperpage}{67}
-\indexentry{::baseline-shift ぞくせい(ふぉんと)@\Showattrib {baseline-shift}(フォント)::::::::|hyperpage}{67}
-\indexentry{::\Showattrib {baseline}::値--フォント::::::|hyperpage}{67}
-\indexentry{::baseline あたいふぉんと@\Showattrib {baseline}(値--フォント)::::::::|hyperpage}{67}
-\indexentry{::\Showattrib {sub}::値--フォント::::::|hyperpage}{67}
-\indexentry{::sub あたいふぉんと@\Showattrib {sub}(値--フォント)::::::::|hyperpage}{67}
-\indexentry{::\Showattrib {super}::値--フォント::::::|hyperpage}{67}
-\indexentry{::super あたいふぉんと@\Showattrib {super}(値--フォント)::::::::|hyperpage}{67}
-\indexentry{::\Showattrib {font-family}::フォント::::::|hyperpage}{67}
-\indexentry{::font-family ぞくせい(ふぉんと)@\Showattrib {font-family}(フォント)::::::::|hyperpage}{67}
-\indexentry{::\Showattrib {font-family}::値--フォント::::::|hyperpage}{67}
-\indexentry{::font-family あたいふぉんと@\Showattrib {font-family}(値--フォント)::::::::|hyperpage}{67}
-\indexentry{::\Showattrib {serif}::値--フォント::::::|hyperpage}{67}
-\indexentry{::serif あたいふぉんと@\Showattrib {serif}(値--フォント)::::::::|hyperpage}{67}
-\indexentry{::\Showattrib {sans-serif}::値--フォント::::::|hyperpage}{67}
-\indexentry{::sans-serif あたいふぉんと@\Showattrib {sans-serif}(値--フォント)::::::::|hyperpage}{67}
-\indexentry{::\Showattrib {cursive}::値--フォント::::::|hyperpage}{67}
-\indexentry{::cursive あたいふぉんと@\Showattrib {cursive}(値--フォント)::::::::|hyperpage}{67}
-\indexentry{::\Showattrib {fantasy}::値--フォント::::::|hyperpage}{67}
-\indexentry{::fantasy あたいふぉんと@\Showattrib {fantasy}(値--フォント)::::::::|hyperpage}{67}
-\indexentry{::\Showattrib {monospace}::値--フォント::::::|hyperpage}{67}
-\indexentry{::monospace あたいふぉんと@\Showattrib {monospace}(値--フォント)::::::::|hyperpage}{67}
+\indexentry{::\Showattrib {ideographic}::値--フォント::::::|hyperpage}{66}
+\indexentry{::ideographic あたいふぉんと@\Showattrib {ideographic}(値--フォント)::::::::|hyperpage}{66}
+\indexentry{::\Showattrib {alphabetic}::値--フォント::::::|hyperpage}{66}
+\indexentry{::alphabetic あたいふぉんと@\Showattrib {alphabetic}(値--フォント)::::::::|hyperpage}{66}
+\indexentry{::\Showattrib {hanging}::値--フォント::::::|hyperpage}{66}
+\indexentry{::hanging あたいふぉんと@\Showattrib {hanging}(値--フォント)::::::::|hyperpage}{66}
+\indexentry{::\Showattrib {mathematical}::値--フォント::::::|hyperpage}{66}
+\indexentry{::mathematical あたいふぉんと@\Showattrib {mathematical}(値--フォント)::::::::|hyperpage}{66}
+\indexentry{::\Showattrib {auto}::値--フォント::::::|hyperpage}{66}
+\indexentry{::auto あたいふぉんと@\Showattrib {auto}(値--フォント)::::::::|hyperpage}{66}
+\indexentry{::\Showattrib {baseline-shift}::フォント::::::|hyperpage}{66}
+\indexentry{::baseline-shift ぞくせい(ふぉんと)@\Showattrib {baseline-shift}(フォント)::::::::|hyperpage}{66}
+\indexentry{::\Showattrib {baseline}::値--フォント::::::|hyperpage}{66}
+\indexentry{::baseline あたいふぉんと@\Showattrib {baseline}(値--フォント)::::::::|hyperpage}{66}
+\indexentry{::\Showattrib {sub}::値--フォント::::::|hyperpage}{66}
+\indexentry{::sub あたいふぉんと@\Showattrib {sub}(値--フォント)::::::::|hyperpage}{66}
+\indexentry{::\Showattrib {super}::値--フォント::::::|hyperpage}{66}
+\indexentry{::super あたいふぉんと@\Showattrib {super}(値--フォント)::::::::|hyperpage}{66}
+\indexentry{::\Showattrib {font-family}::フォント::::::|hyperpage}{66}
+\indexentry{::font-family ぞくせい(ふぉんと)@\Showattrib {font-family}(フォント)::::::::|hyperpage}{66}
+\indexentry{::\Showattrib {font-family}::値--フォント::::::|hyperpage}{66}
+\indexentry{::font-family あたいふぉんと@\Showattrib {font-family}(値--フォント)::::::::|hyperpage}{66}
+\indexentry{::\Showattrib {serif}::値--フォント::::::|hyperpage}{66}
+\indexentry{::serif あたいふぉんと@\Showattrib {serif}(値--フォント)::::::::|hyperpage}{66}
+\indexentry{::\Showattrib {sans-serif}::値--フォント::::::|hyperpage}{66}
+\indexentry{::sans-serif あたいふぉんと@\Showattrib {sans-serif}(値--フォント)::::::::|hyperpage}{66}
+\indexentry{::\Showattrib {cursive}::値--フォント::::::|hyperpage}{66}
+\indexentry{::cursive あたいふぉんと@\Showattrib {cursive}(値--フォント)::::::::|hyperpage}{66}
+\indexentry{::\Showattrib {fantasy}::値--フォント::::::|hyperpage}{66}
+\indexentry{::fantasy あたいふぉんと@\Showattrib {fantasy}(値--フォント)::::::::|hyperpage}{66}
+\indexentry{::\Showattrib {monospace}::値--フォント::::::|hyperpage}{66}
+\indexentry{::monospace あたいふぉんと@\Showattrib {monospace}(値--フォント)::::::::|hyperpage}{66}
 \indexentry{::\Showattrib {font-style}::フォント::::::|hyperpage}{67}
 \indexentry{::font-style ぞくせい(ふぉんと)@\Showattrib {font-style}(フォント)::::::::|hyperpage}{67}
 \indexentry{::\Showattrib {normal}::値--フォント::::::|hyperpage}{67}
@@ -893,8 +893,14 @@
 \indexentry{::overline あたいふぉんと@\Showattrib {overline}(値--フォント)::::::::|hyperpage}{67}
 \indexentry{::\Showattrib {line-through}::値--フォント::::::|hyperpage}{67}
 \indexentry{::line-through あたいふぉんと@\Showattrib {line-through}(値--フォント)::::::::|hyperpage}{67}
-\indexentry{::\ShowElm {tspan}::要素::::::|hyperpage}{68}
-\indexentry{::tspan (ようそ)@\ShowElm {tspan}::::::::|hyperpage}{68}
+\indexentry{::\ShowElm {text}::要素::::::|hyperpage}{67}
+\indexentry{::text (ようそ)@\ShowElm {text}::::::::|hyperpage}{67}
+\indexentry{::\ShowElm {text}::要素::::::|hyperpage}{67}
+\indexentry{::text (ようそ)@\ShowElm {text}::::::::|hyperpage}{67}
+\indexentry{::\ShowElm {tspan}::要素::::::|hyperpage}{67}
+\indexentry{::tspan (ようそ)@\ShowElm {tspan}::::::::|hyperpage}{67}
+\indexentry{::\ShowElm {tspan}::要素::::::|hyperpage}{67}
+\indexentry{::tspan (ようそ)@\ShowElm {tspan}::::::::|hyperpage}{67}
 \indexentry{::\ShowElm {tspan}::要素::::::|hyperpage}{68}
 \indexentry{::tspan (ようそ)@\ShowElm {tspan}::::::::|hyperpage}{68}
 \indexentry{::\ShowElm {tspan}::要素::::::|hyperpage}{68}
@@ -912,41 +918,41 @@
 \indexentry{::startOffset ぞくせい(ふぉんと)@\Showattrib {startOffset}(フォント)::::::::|hyperpage}{69}
 \indexentry{::\Showattrib {startOffset}::フォント::::::|hyperpage}{69}
 \indexentry{::startOffset ぞくせい(ふぉんと)@\Showattrib {startOffset}(フォント)::::::::|hyperpage}{69}
-\indexentry{::\Showattrib {startOffset}::フォント::::::|hyperpage}{70}
-\indexentry{::startOffset ぞくせい(ふぉんと)@\Showattrib {startOffset}(フォント)::::::::|hyperpage}{70}
-\indexentry{::\ShowElm {polyline}::要素::::::|hyperpage}{75}
-\indexentry{::polyline (ようそ)@\ShowElm {polyline}::::::::|hyperpage}{75}
-\indexentry{::\Showattrib {width}::図形::::::|hyperpage}{75}
-\indexentry{::width ぞくせい(ずけい)@\Showattrib {width}(図形)::::::::|hyperpage}{75}
-\indexentry{::\ShowElm {polyline}::要素::::::|hyperpage}{75}
-\indexentry{::polyline (ようそ)@\ShowElm {polyline}::::::::|hyperpage}{75}
-\indexentry{::\Showattrib {width}::図形::::::|hyperpage}{75}
-\indexentry{::width ぞくせい(ずけい)@\Showattrib {width}(図形)::::::::|hyperpage}{75}
+\indexentry{::\Showattrib {startOffset}::フォント::::::|hyperpage}{69}
+\indexentry{::startOffset ぞくせい(ふぉんと)@\Showattrib {startOffset}(フォント)::::::::|hyperpage}{69}
+\indexentry{::\ShowElm {polyline}::要素::::::|hyperpage}{74}
+\indexentry{::polyline (ようそ)@\ShowElm {polyline}::::::::|hyperpage}{74}
+\indexentry{::\Showattrib {width}::図形::::::|hyperpage}{74}
+\indexentry{::width ぞくせい(ずけい)@\Showattrib {width}(図形)::::::::|hyperpage}{74}
+\indexentry{::\ShowElm {polyline}::要素::::::|hyperpage}{74}
+\indexentry{::polyline (ようそ)@\ShowElm {polyline}::::::::|hyperpage}{74}
+\indexentry{::\Showattrib {width}::図形::::::|hyperpage}{74}
+\indexentry{::width ぞくせい(ずけい)@\Showattrib {width}(図形)::::::::|hyperpage}{74}
 \indexentry{::\Showattrib {fill}::図形::::::|hyperpage}{80}
 \indexentry{::fill ぞくせい(ずけい)@\Showattrib {fill}(図形)::::::::|hyperpage}{80}
 \indexentry{::onclickぞくせい@\Showattrib {onclick}::::::::|hyperpage}{82}
-\indexentry{::\ShowElm {script}::要素::::::|hyperpage}{83}
-\indexentry{::script (ようそ)@\ShowElm {script}::::::::|hyperpage}{83}
-\indexentry{::\ShowElm {script}::要素::::::|hyperpage}{83}
-\indexentry{::script (ようそ)@\ShowElm {script}::::::::|hyperpage}{83}
-\indexentry{::typeぞくせい@\Showattrib {type}::::::::|hyperpage}{83}
+\indexentry{::\ShowElm {script}::要素::::::|hyperpage}{82}
+\indexentry{::script (ようそ)@\ShowElm {script}::::::::|hyperpage}{82}
+\indexentry{::\ShowElm {script}::要素::::::|hyperpage}{82}
+\indexentry{::script (ようそ)@\ShowElm {script}::::::::|hyperpage}{82}
+\indexentry{::typeぞくせい@\Showattrib {type}::::::::|hyperpage}{82}
 \indexentry{::\Showattrib {fill}::図形::::::|hyperpage}{83}
 \indexentry{::fill ぞくせい(ずけい)@\Showattrib {fill}(図形)::::::::|hyperpage}{83}
 \indexentry{::\Showattrib {fill}::図形::::::|hyperpage}{83}
 \indexentry{::fill ぞくせい(ずけい)@\Showattrib {fill}(図形)::::::::|hyperpage}{83}
-\indexentry{::\ShowElm {circle}::要素::::::|hyperpage}{84}
-\indexentry{::circle (ようそ)@\ShowElm {circle}::::::::|hyperpage}{84}
-\indexentry{::onclickぞくせい@\Showattrib {onclick}::::::::|hyperpage}{84}
+\indexentry{::\ShowElm {circle}::要素::::::|hyperpage}{83}
+\indexentry{::circle (ようそ)@\ShowElm {circle}::::::::|hyperpage}{83}
+\indexentry{::onclickぞくせい@\Showattrib {onclick}::::::::|hyperpage}{83}
 \indexentry{::onloadぞくせい@\Showattrib {onload}::::::::|hyperpage}{84}
 \indexentry{::onloadぞくせい@\Showattrib {onload}::::::::|hyperpage}{84}
 \indexentry{::\ShowElm {circle}::要素::::::|hyperpage}{84}
 \indexentry{::circle (ようそ)@\ShowElm {circle}::::::::|hyperpage}{84}
 \indexentry{::onloadぞくせい@\Showattrib {onload}::::::::|hyperpage}{85}
-\indexentry{::\Showattrib {cy}::図形::::::|hyperpage}{86}
-\indexentry{::cy ぞくせい(ずけい)@\Showattrib {cy}(図形)::::::::|hyperpage}{86}
-\indexentry{::idぞくせい@\Showattrib {id}::::::::|hyperpage}{87}
-\indexentry{::\ShowElm {rect}::要素::::::|hyperpage}{87}
-\indexentry{::rect (ようそ)@\ShowElm {rect}::::::::|hyperpage}{87}
+\indexentry{::\Showattrib {cy}::図形::::::|hyperpage}{85}
+\indexentry{::cy ぞくせい(ずけい)@\Showattrib {cy}(図形)::::::::|hyperpage}{85}
+\indexentry{::idぞくせい@\Showattrib {id}::::::::|hyperpage}{86}
+\indexentry{::\ShowElm {rect}::要素::::::|hyperpage}{86}
+\indexentry{::rect (ようそ)@\ShowElm {rect}::::::::|hyperpage}{86}
 \indexentry{::\ShowElm {rect}::要素::::::|hyperpage}{87}
 \indexentry{::rect (ようそ)@\ShowElm {rect}::::::::|hyperpage}{87}
 \indexentry{::\ShowElm {svg}::要素::::::|hyperpage}{87}
@@ -955,39 +961,39 @@
 \indexentry{::text (ようそ)@\ShowElm {text}::::::::|hyperpage}{88}
 \indexentry{::\ShowElm {text}::要素::::::|hyperpage}{88}
 \indexentry{::text (ようそ)@\ShowElm {text}::::::::|hyperpage}{88}
-\indexentry{::\ShowElm {text}::要素::::::|hyperpage}{89}
-\indexentry{::text (ようそ)@\ShowElm {text}::::::::|hyperpage}{89}
-\indexentry{::\ShowElm {text}::要素::::::|hyperpage}{89}
-\indexentry{::text (ようそ)@\ShowElm {text}::::::::|hyperpage}{89}
-\indexentry{::\ShowElm {text}::要素::::::|hyperpage}{89}
-\indexentry{::text (ようそ)@\ShowElm {text}::::::::|hyperpage}{89}
-\indexentry{::\ShowElm {text}::要素::::::|hyperpage}{89}
-\indexentry{::text (ようそ)@\ShowElm {text}::::::::|hyperpage}{89}
+\indexentry{::\ShowElm {text}::要素::::::|hyperpage}{88}
+\indexentry{::text (ようそ)@\ShowElm {text}::::::::|hyperpage}{88}
+\indexentry{::\ShowElm {text}::要素::::::|hyperpage}{88}
+\indexentry{::text (ようそ)@\ShowElm {text}::::::::|hyperpage}{88}
+\indexentry{::\ShowElm {text}::要素::::::|hyperpage}{88}
+\indexentry{::text (ようそ)@\ShowElm {text}::::::::|hyperpage}{88}
+\indexentry{::\ShowElm {text}::要素::::::|hyperpage}{88}
+\indexentry{::text (ようそ)@\ShowElm {text}::::::::|hyperpage}{88}
 \indexentry{::\ShowElm {g}::要素::::::|hyperpage}{91}
 \indexentry{::g (ようそ)@\ShowElm {g}::::::::|hyperpage}{91}
-\indexentry{::\ShowElm {g}::要素::::::|hyperpage}{92}
-\indexentry{::g (ようそ)@\ShowElm {g}::::::::|hyperpage}{92}
-\indexentry{::\Showattrib {click}::値::::::|hyperpage}{92}
-\indexentry{::click あたい@\Showattrib {click}(値)::::::::|hyperpage}{92}
-\indexentry{::\ShowElm {g}::要素::::::|hyperpage}{92}
-\indexentry{::g (ようそ)@\ShowElm {g}::::::::|hyperpage}{92}
-\indexentry{::\ShowElm {svg}::要素::::::|hyperpage}{92}
-\indexentry{::svg (ようそ)@\ShowElm {svg}::::::::|hyperpage}{92}
+\indexentry{::\ShowElm {g}::要素::::::|hyperpage}{91}
+\indexentry{::g (ようそ)@\ShowElm {g}::::::::|hyperpage}{91}
+\indexentry{::\Showattrib {click}::値::::::|hyperpage}{91}
+\indexentry{::click あたい@\Showattrib {click}(値)::::::::|hyperpage}{91}
+\indexentry{::\ShowElm {g}::要素::::::|hyperpage}{91}
+\indexentry{::g (ようそ)@\ShowElm {g}::::::::|hyperpage}{91}
+\indexentry{::\ShowElm {svg}::要素::::::|hyperpage}{91}
+\indexentry{::svg (ようそ)@\ShowElm {svg}::::::::|hyperpage}{91}
 \indexentry{::\ShowElm {svg}::要素::::::|hyperpage}{93}
 \indexentry{::svg (ようそ)@\ShowElm {svg}::::::::|hyperpage}{93}
 \indexentry{::\ShowElm {svg}::要素::::::|hyperpage}{94}
 \indexentry{::svg (ようそ)@\ShowElm {svg}::::::::|hyperpage}{94}
 \indexentry{::\ShowElm {rect}::要素::::::|hyperpage}{94}
 \indexentry{::rect (ようそ)@\ShowElm {rect}::::::::|hyperpage}{94}
-\indexentry{::idぞくせい@\Showattrib {id}::::::::|hyperpage}{96}
-\indexentry{::\ShowElm {g}::要素::::::|hyperpage}{96}
-\indexentry{::g (ようそ)@\ShowElm {g}::::::::|hyperpage}{96}
-\indexentry{::\ShowElm {line}::要素::::::|hyperpage}{96}
-\indexentry{::line (ようそ)@\ShowElm {line}::::::::|hyperpage}{96}
-\indexentry{::\ShowElm {line}::要素::::::|hyperpage}{96}
-\indexentry{::line (ようそ)@\ShowElm {line}::::::::|hyperpage}{96}
-\indexentry{::\ShowElm {line}::要素::::::|hyperpage}{96}
-\indexentry{::line (ようそ)@\ShowElm {line}::::::::|hyperpage}{96}
+\indexentry{::idぞくせい@\Showattrib {id}::::::::|hyperpage}{95}
+\indexentry{::\ShowElm {g}::要素::::::|hyperpage}{95}
+\indexentry{::g (ようそ)@\ShowElm {g}::::::::|hyperpage}{95}
+\indexentry{::\ShowElm {line}::要素::::::|hyperpage}{95}
+\indexentry{::line (ようそ)@\ShowElm {line}::::::::|hyperpage}{95}
+\indexentry{::\ShowElm {line}::要素::::::|hyperpage}{95}
+\indexentry{::line (ようそ)@\ShowElm {line}::::::::|hyperpage}{95}
+\indexentry{::\ShowElm {line}::要素::::::|hyperpage}{95}
+\indexentry{::line (ようそ)@\ShowElm {line}::::::::|hyperpage}{95}
 \indexentry{::\ShowElm {line}::要素::::::|hyperpage}{96}
 \indexentry{::line (ようそ)@\ShowElm {line}::::::::|hyperpage}{96}
 \indexentry{::\Showattrib {width}::図形::::::|hyperpage}{96}
@@ -1005,10 +1011,10 @@
 \indexentry{::g (ようそ)@\ShowElm {g}::::::::|hyperpage}{104}
 \indexentry{::\ShowElm {g}::要素::::::|hyperpage}{104}
 \indexentry{::g (ようそ)@\ShowElm {g}::::::::|hyperpage}{104}
-\indexentry{::transformぞくせい@\Showattrib {transform}::::::::|hyperpage}{105}
-\indexentry{::\ShowElm {g}::要素::::::|hyperpage}{107}
-\indexentry{::g (ようそ)@\ShowElm {g}::::::::|hyperpage}{107}
-\indexentry{::idぞくせい@\Showattrib {id}::::::::|hyperpage}{107}
+\indexentry{::transformぞくせい@\Showattrib {transform}::::::::|hyperpage}{104}
+\indexentry{::\ShowElm {g}::要素::::::|hyperpage}{106}
+\indexentry{::g (ようそ)@\ShowElm {g}::::::::|hyperpage}{106}
+\indexentry{::idぞくせい@\Showattrib {id}::::::::|hyperpage}{106}
 \indexentry{::\ShowElm {path}::要素::::::|hyperpage}{107}
 \indexentry{::path (ようそ)@\ShowElm {path}::::::::|hyperpage}{107}
 \indexentry{::\Showattrib {d}::図形::::::|hyperpage}{107}
@@ -1027,10 +1033,10 @@
 \indexentry{::blue あたいいろ@\Showattrib {blue}(値--色)::::::::|hyperpage}{108}
 \indexentry{::\Showattrib {green}::値--色::::::|hyperpage}{108}
 \indexentry{::green あたいいろ@\Showattrib {green}(値--色)::::::::|hyperpage}{108}
-\indexentry{::\Showattrib {green}::値--色::::::|hyperpage}{109}
-\indexentry{::green あたいいろ@\Showattrib {green}(値--色)::::::::|hyperpage}{109}
-\indexentry{::\ShowElm {g}::要素::::::|hyperpage}{113}
-\indexentry{::g (ようそ)@\ShowElm {g}::::::::|hyperpage}{113}
+\indexentry{::\Showattrib {green}::値--色::::::|hyperpage}{108}
+\indexentry{::green あたいいろ@\Showattrib {green}(値--色)::::::::|hyperpage}{108}
+\indexentry{::\ShowElm {g}::要素::::::|hyperpage}{112}
+\indexentry{::g (ようそ)@\ShowElm {g}::::::::|hyperpage}{112}
 \indexentry{::\ShowElm {text}::要素::::::|hyperpage}{113}
 \indexentry{::text (ようそ)@\ShowElm {text}::::::::|hyperpage}{113}
 \indexentry{::\Showattrib {fill}::図形::::::|hyperpage}{113}
@@ -1041,11 +1047,11 @@
 \indexentry{::text (ようそ)@\ShowElm {text}::::::::|hyperpage}{113}
 \indexentry{::\ShowElm {g}::要素::::::|hyperpage}{116}
 \indexentry{::g (ようそ)@\ShowElm {g}::::::::|hyperpage}{116}
-\indexentry{::\ShowElm {text}::要素::::::|hyperpage}{117}
-\indexentry{::text (ようそ)@\ShowElm {text}::::::::|hyperpage}{117}
-\indexentry{::\Showattrib {text-anchor}::フォント::::::|hyperpage}{117}
-\indexentry{::text-anchor ぞくせい(ふぉんと)@\Showattrib {text-anchor}(フォント)::::::::|hyperpage}{117}
-\indexentry{::\ShowElm {svg}::要素::::::|hyperpage}{120}
-\indexentry{::svg (ようそ)@\ShowElm {svg}::::::::|hyperpage}{120}
-\indexentry{::\ShowElm {g}::要素::::::|hyperpage}{121}
-\indexentry{::g (ようそ)@\ShowElm {g}::::::::|hyperpage}{121}
+\indexentry{::\ShowElm {text}::要素::::::|hyperpage}{116}
+\indexentry{::text (ようそ)@\ShowElm {text}::::::::|hyperpage}{116}
+\indexentry{::\Showattrib {text-anchor}::フォント::::::|hyperpage}{116}
+\indexentry{::text-anchor ぞくせい(ふぉんと)@\Showattrib {text-anchor}(フォント)::::::::|hyperpage}{116}
+\indexentry{::\ShowElm {svg}::要素::::::|hyperpage}{119}
+\indexentry{::svg (ようそ)@\ShowElm {svg}::::::::|hyperpage}{119}
+\indexentry{::\ShowElm {g}::要素::::::|hyperpage}{120}
+\indexentry{::g (ようそ)@\ShowElm {g}::::::::|hyperpage}{120}

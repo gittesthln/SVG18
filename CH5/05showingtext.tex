@@ -4,35 +4,42 @@
 図\ref{showtext}はSVG画像の中に文字列を表示しています。
 
 文字列を\keysubT{表示する}{文字列}{を}には\Elm{text}を用います。
-\ShowFig{0.5}{ht}{svg-showtext}{文字列の表示}{showtext}
+\ShowFig{0.4}{ht}{svg-showtext}{文字列の表示}{showtext}
 %\newpage
 \SVGListN{文字列の表示}{svg-showtext}{svg-showtext}
 \begin{itemize}
 % \item エンコーディングをUTF-8にしています(\Line{encoding})。
- \item この表示では文字列がどこに表示されるかをわかりやすくするために
-       $(0,0)$で交わる2直線を書く図形を定義しています(\Line{L1}と\Line{L2})。
+ \item この表示では文字列がどこに表示されるかを明示するために
+       $(0,0)$で交わる2直線を定義しています(\Line{L1}と\Line{L2})。
  \item 初めの文字列は属性\AttribO{x}や\AttribO{y}の値から表示する位置は
-       $(0,0)$です。
- \item 文字列は\AttribO{fill}を指定することで赤で表示されます。
+       $(0,0)$です。\AttribO{fill}で塗る色を指定します(ここでは赤)。
  \item 表示位置は特別に指定しないので左下が基準になっています。
- \item 二番目の文字列は日本語を表示しています。文字列の左上が$(0,0)$の
-       位置になります(\Line{T1S}から\Line{T1E})。
+ \item 二番目の文字列は日本語を表示しています。(\Line{T1S}から\Line{T1E})。
 \end{itemize}
 文字の表示のための\keysubT{属性}{文字列}{の}とその属性値を表
-\ref{attrib-text}にまとめておきます。\Opera ではこれらの属性がすべて利用
-できるわけではありません。特に、\AttribFnt{dominant-baseline}はサポート
-されていません。
+\ref{attrib-text}にまとめておきます。ブラウザによってはこれらの属性がすべて利用
+できるわけではありません。
+%特に、\AttribFnt{dominant-baseline}はサポートされていません。
 
 \iffalse
 各種の属性値の違いをインターラクティブに取り扱うHTMLファイルが
 例\ref{set-textposition}にありますので確かめてください。
 \fi
-\begin{table}[p]
+{
+\begin{longtable}{|c|c|l|}
 \caption{文字列表示の属性と属性値}\label{attrib-text}
-\begin{center}
-\begin{tabular}[t]{|c|c|l|}
- \hline
-属性名&属性値 & \multicolumn{1}{c|}{意味}\\\hline
+\\ \hline
+ 属性名&属性値 & \multicolumn{1}{c|}{意味}\\\hline
+\endfirsthead
+\caption{文字列表示の属性と属性値（つづき）}
+\\\hline
+ 属性名&属性値 & \multicolumn{1}{c|}{意味}\\\hline
+\endhead
+\multicolumn{3}{r}{次のページへ}
+\endfoot
+\hline
+\endlastfoot
+ 
 \AttribFnt{text-anchor} & \multicolumn{2}{c|}{水平方向の位置} \\ \hline
  &\AttribFntVal{start}{} & 文字列の開始位置\\
  &\AttribFntVal{middle}{} & 文字列の中央\\
@@ -68,20 +75,21 @@
  &\AttribFntVal{underline}{} & 下線\\
  &\AttribFntVal{overline}{} & 上線\\
  &\AttribFntVal{line-through}{} &打ち消し線 \\ \hline
-\end{tabular}
-\end{center}
-\end{table}
+\end{longtable}
+}
 SVGは多言語に対応しているので文字列の水平方向の位置が\Showattrib{left},
 \Showattrib{right}ではないことに注意してください。
+\ifSeminor\else
 \begin{Problem}\upshape
  \Showattrib{left}や\Showattrib{right}を使わない理由は何か調査しなさい。
 \end{Problem}
-\section{部分的に文字の表示を変える方法}
+\fi
+ \section{部分的に文字の表示を変える方法}
 前節で述べた\Elm{text}には文字の表現を変えるための属性が定められています。
 横に並んだ文字列の一部だけ文字の表現を変えるためには\Elm{text}だけでは
 変える文字列の先頭位置を指定するのが面倒です。これをするためには
 \Elm{tspan}を用います。
-\ShowFig{0.7}{ht}{svg-text-with-tspan}
+\ShowFig{0.54}{ht}{svg-text-with-tspan}
     {部分的に文字の表示を変える}{text-with-tspan}
 \SVGListN{\protect\Elm{tspan}の使用例}{svg-text-with-tspan}{svg-tspan}
 \begin{itemize}
@@ -133,7 +141,7 @@ SVGは多言語に対応しているので文字列の水平方向の位置が\S
 \fi
 \section{道程に沿った文字列の配置}
 文字列を道程に沿って配置することができます。
-\ShowFig{0.9}{ht}{svg-text-along-path}
+\ShowFig{0.6}{ht}{svg-text-along-path}
     {道程に沿った文字の表示}{text-along-path}
 %		\newpage
 \SVGListN{道程に沿った文字の表示}
@@ -145,10 +153,9 @@ SVGは多言語に対応しているので文字列の水平方向の位置が\S
 % \item この例ではテキストを2通りの方法で配置します。同一のテキストを利
 %       用することを強調するために\Line{TextS}から\Line{TextE}にかけてそ
 %       の文字列を定義しています。
- \item \Line{Path1S}から\Line{Path1E}にかけて一つ目の文字列を定義したパ
-       スに沿って配置しています。これは\Elm{text}内に\Elm{textPath}を記述する
-       ことで実現できます。このタグ内で上で定義した道程を属性
-       \Attrib{xlink:href}で引用し、
+ \item \Elm{text}内に\Elm{textPath}を記述する
+       ことで文字列をパスに沿って配置しています(\Line{Path1S}から
+       \Line{Path1E})。この要素内で、上で定義した道程を属性\Attrib{xlink:href}で引用し、
        さらに\AttribFnt{font-size}でフォントの大きさを指定しています
        (\Line{FontSize})。
 % \item \Line{Textref}では以前に定義した文字列を引用するために
@@ -159,8 +166,8 @@ SVGは多言語に対応しているので文字列の水平方向の位置が\S
        \AttribFnt{startOffset}にアニメーションを
        つけていることです(\Line{animateS}から\Line{animateE})。
  \item 属性\AttribFnt{startOffset}は指定された文字列を指定された道程のどの
-       位置から配置するのかを決めるものです。長さを指定する数値か, 道程
-       に対する割合を\%を用いて表すかの方法があります。
+       位置から配置するのかを決めるものです。長さを指定する数値と, 道程
+       に対する割合を\%を用いる方法があります。
  \item ここでは100\%から0\%へ変化するアニメーションをつけているので道程
        の終了点から道程の開始点へ文字列が移動することになります。
  \item 文字列の道程から外れた部分は表示されないようです。

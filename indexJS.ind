@@ -5,16 +5,16 @@
   \indexspace
 \item {\large\bf A}\nopagebreak[4]
   \item \Showattrib {addEventListener}(DOMのメソッド) \dotfill 
-		\hyperpage{87}
+		\hyperpage{86}
   \item \Showattrib {addEventListner}(DOMのメソッド) \dotfill 
-		\hyperpage{84}, \hyperpage{91}
-  \item \Showattrib {alert} \dotfill \hyperpage{83}
+		\hyperpage{84}, \hyperpage{90}
+  \item \Showattrib {alert} \dotfill \hyperpage{82}
   \item \Showattrib {altKey}(DOMのプロパティ) \dotfill \hyperpage{81}
   \item \Showattrib {appendChild}(DOMのメソッド) \dotfill 
-		\hyperpage{78}, \hyperpage{90}, \hyperpage{98}, 
+		\hyperpage{77}, \hyperpage{90}, \hyperpage{97}, 
 		\hyperpage{113}
   \item Arrayのメソッド
-    \subitem \Showattrib {splice} \dotfill \hyperpage{113}
+    \subitem \Showattrib {splice} \dotfill \hyperpage{112}
 
   \indexspace
 \item {\large\bf B}\nopagebreak[4]
@@ -23,77 +23,77 @@
   \indexspace
 \item {\large\bf C}\nopagebreak[4]
   \item \Showattrib {childNodes}(DOMのプロパティ) \dotfill 
-		\hyperpage{79}
-  \item \Showattrib {children}(DOMのプロパティ) \dotfill \hyperpage{79}
+		\hyperpage{78}
+  \item \Showattrib {children}(DOMのプロパティ) \dotfill \hyperpage{78}
   \item \Showattrib {clearTimeout} \dotfill \hyperpage{108}
   \item \Showattrib {clientX}(DOMのプロパティ) \dotfill \hyperpage{81}, 
-		\hyperpage{87}, \hyperpage{96}
+		\hyperpage{87}, \hyperpage{95}
   \item \Showattrib {clientY}(DOMのプロパティ) \dotfill \hyperpage{81}
   \item \Showattrib {cloneNode}(DOMのメソッド) \dotfill \hyperpage{77}
   \item \Showattrib {createElement}(DOMのメソッド) \dotfill 
 		\hyperpage{77}, \hyperpage{94}
   \item \Showattrib {createElementNS}(DOMのメソッド) \dotfill 
-		\hyperpage{77}, \hyperpage{94}, \hyperpage{102}
+		\hyperpage{77}, \hyperpage{94}, \hyperpage{101}
   \item \Showattrib {createTextNode}(DOMのメソッド) \dotfill 
-		\hyperpage{77}, \hyperpage{90}, \hyperpage{113}
+		\hyperpage{77}, \hyperpage{89}, \hyperpage{113}
   \item \Showattrib {ctrlKey}(DOMのプロパティ) \dotfill \hyperpage{81}
   \item \Showattrib {currentTarget}(DOMのプロパティ) \dotfill 
-		\hyperpage{81}, \hyperpage{91}
+		\hyperpage{81}, \hyperpage{90}
 
   \indexspace
 \item {\large\bf D}\nopagebreak[4]
   \item \Showattrib {document} \dotfill \hyperpage{94}
   \item DOMのオブジェクト
-    \subitem \Showattrib {window} \dotfill \hyperpage{83}, 
+    \subitem \Showattrib {window} \dotfill \hyperpage{82}, 
 		\hyperpage{108}
   \item DOMのプロパティ
     \subitem \Showattrib {altKey} \dotfill \hyperpage{81}
     \subitem \Showattrib {button} \dotfill \hyperpage{81}
-    \subitem \Showattrib {childNodes} \dotfill \hyperpage{79}
-    \subitem \Showattrib {children} \dotfill \hyperpage{79}
+    \subitem \Showattrib {childNodes} \dotfill \hyperpage{78}
+    \subitem \Showattrib {children} \dotfill \hyperpage{78}
     \subitem \Showattrib {clientX} \dotfill \hyperpage{81}, 
-		\hyperpage{87}, \hyperpage{96}
+		\hyperpage{87}, \hyperpage{95}
     \subitem \Showattrib {clientY} \dotfill \hyperpage{81}
     \subitem \Showattrib {ctrlKey} \dotfill \hyperpage{81}
     \subitem \Showattrib {currentTarget} \dotfill \hyperpage{81}, 
-		\hyperpage{91}
+		\hyperpage{90}
     \subitem \Showattrib {eventPhase} \dotfill \hyperpage{81}
-    \subitem \Showattrib {firstChild} \dotfill \hyperpage{79}, 
-		\hyperpage{89}
-    \subitem \Showattrib {firstElementChild} \dotfill \hyperpage{79}
-    \subitem \Showattrib {hasChildNodes} \dotfill \hyperpage{79}
-    \subitem \Showattrib {lastChild} \dotfill \hyperpage{79}
-    \subitem \Showattrib {lastElementChild} \dotfill \hyperpage{79}
+    \subitem \Showattrib {firstChild} \dotfill \hyperpage{78}, 
+		\hyperpage{88}
+    \subitem \Showattrib {firstElementChild} \dotfill \hyperpage{78}
+    \subitem \Showattrib {hasChildNodes} \dotfill \hyperpage{78}
+    \subitem \Showattrib {lastChild} \dotfill \hyperpage{78}
+    \subitem \Showattrib {lastElementChild} \dotfill \hyperpage{78}
     \subitem \Showattrib {metaKey} \dotfill \hyperpage{81}
-    \subitem \Showattrib {nextElementSibling} \dotfill \hyperpage{79}
-    \subitem \Showattrib {nextSibling} \dotfill \hyperpage{79}
-    \subitem \Showattrib {nodeName} \dotfill \hyperpage{79}
-    \subitem \Showattrib {nodeType} \dotfill \hyperpage{79}
-    \subitem \Showattrib {nodeValue} \dotfill \hyperpage{79}
+    \subitem \Showattrib {nextElementSibling} \dotfill \hyperpage{78}
+    \subitem \Showattrib {nextSibling} \dotfill \hyperpage{78}
+    \subitem \Showattrib {nodeName} \dotfill \hyperpage{78}
+    \subitem \Showattrib {nodeType} \dotfill \hyperpage{78}
+    \subitem \Showattrib {nodeValue} \dotfill \hyperpage{78}
     \subitem \Showattrib {pageXOffset} \dotfill \hyperpage{81}
     \subitem \Showattrib {pageYOffset} \dotfill \hyperpage{81}
-    \subitem \Showattrib {parentNode} \dotfill \hyperpage{79}
+    \subitem \Showattrib {parentNode} \dotfill \hyperpage{78}
     \subitem \Showattrib {previousElementSibling} \dotfill 
-		\hyperpage{79}
-    \subitem \Showattrib {previousSibling} \dotfill \hyperpage{79}
+		\hyperpage{78}
+    \subitem \Showattrib {previousSibling} \dotfill \hyperpage{78}
     \subitem \Showattrib {screenX} \dotfill \hyperpage{81}
     \subitem \Showattrib {screenY} \dotfill \hyperpage{81}
     \subitem \Showattrib {shiftKey} \dotfill \hyperpage{81}
     \subitem \Showattrib {target} \dotfill \hyperpage{81}, 
-		\hyperpage{83}, \hyperpage{91}
+		\hyperpage{83}, \hyperpage{90}
   \item DOMのメソッド
-    \subitem \Showattrib {addEventListener} \dotfill \hyperpage{87}
+    \subitem \Showattrib {addEventListener} \dotfill \hyperpage{86}
     \subitem \Showattrib {addEventListner} \dotfill \hyperpage{84}, 
-		\hyperpage{91}
-    \subitem \Showattrib {appendChild} \dotfill \hyperpage{78}, 
-		\hyperpage{90}, \hyperpage{98}, \hyperpage{113}
+		\hyperpage{90}
+    \subitem \Showattrib {appendChild} \dotfill \hyperpage{77}, 
+		\hyperpage{90}, \hyperpage{97}, \hyperpage{113}
     \subitem \Showattrib {cloneNode} \dotfill \hyperpage{77}
     \subitem \Showattrib {createElement} \dotfill \hyperpage{77}, 
 		\hyperpage{94}
     \subitem \Showattrib {createElementNS} \dotfill \hyperpage{77}, 
-		\hyperpage{94}, \hyperpage{102}
+		\hyperpage{94}, \hyperpage{101}
     \subitem \Showattrib {createTextNode} \dotfill \hyperpage{77}, 
-		\hyperpage{90}, \hyperpage{113}
+		\hyperpage{89}, \hyperpage{113}
     \subitem \Showattrib {getAltKey} \dotfill \hyperpage{81}
     \subitem \Showattrib {getAttribute} \dotfill \hyperpage{77}, 
 		\hyperpage{83--85}
@@ -103,7 +103,7 @@
     \subitem \Showattrib {getCntrlKey} \dotfill \hyperpage{81}
     \subitem \Showattrib {getCurrentTarget} \dotfill \hyperpage{81}
     \subitem \Showattrib {getElementById} \dotfill \hyperpage{77}, 
-		\hyperpage{87}
+		\hyperpage{86}
     \subitem \Showattrib {getElementsByClassName} \dotfill 
 		\hyperpage{77}
     \subitem \Showattrib {getElementsByName} \dotfill \hyperpage{77}
@@ -116,19 +116,19 @@
     \subitem \Showattrib {getShiftKey} \dotfill \hyperpage{81}
     \subitem \Showattrib {getTarget} \dotfill \hyperpage{81}
     \subitem \Showattrib {hasAttribute} \dotfill \hyperpage{77}
-    \subitem \Showattrib {insertBefore} \dotfill \hyperpage{78}
+    \subitem \Showattrib {insertBefore} \dotfill \hyperpage{77}
     \subitem \Showattrib {preventDefault} \dotfill \hyperpage{81}
     \subitem \Showattrib {querySelector} \dotfill \hyperpage{77}
     \subitem \Showattrib {querySelectorAll} \dotfill \hyperpage{77}
     \subitem \Showattrib {removeAttribute} \dotfill \hyperpage{77}
-    \subitem \Showattrib {removeChild} \dotfill \hyperpage{78}
-    \subitem \Showattrib {replaceChild} \dotfill \hyperpage{78}, 
+    \subitem \Showattrib {removeChild} \dotfill \hyperpage{77}
+    \subitem \Showattrib {replaceChild} \dotfill \hyperpage{77}, 
 		\hyperpage{90}, \hyperpage{113}
     \subitem \Showattrib {setAttribute} \dotfill \hyperpage{77}, 
-		\hyperpage{84}, \hyperpage{86}, \hyperpage{87}
-    \subitem \Showattrib {setValue} \dotfill \hyperpage{78}
+		\hyperpage{84}, \hyperpage{85}, \hyperpage{87}
+    \subitem \Showattrib {setValue} \dotfill \hyperpage{77}
     \subitem \Showattrib {stopPropagation} \dotfill \hyperpage{81}, 
-		\hyperpage{92}
+		\hyperpage{91}
 
   \indexspace
 \item {\large\bf E}\nopagebreak[4]
@@ -140,20 +140,20 @@
 
   \indexspace
 \item {\large\bf F}\nopagebreak[4]
-  \item \Showattrib {false} \dotfill \hyperpage{91}
+  \item \Showattrib {false} \dotfill \hyperpage{90}
   \item \Showattrib {firstChild}(DOMのプロパティ) \dotfill 
-		\hyperpage{79}, \hyperpage{89}
+		\hyperpage{78}, \hyperpage{88}
   \item \Showattrib {firstElementChild}(DOMのプロパティ) \dotfill 
-		\hyperpage{79}
-  \item \Showattrib {for} \dotfill \hyperpage{119}
-  \item \Showattrib {function} \dotfill \hyperpage{83}, \hyperpage{120}
+		\hyperpage{78}
+  \item \Showattrib {for} \dotfill \hyperpage{118}
+  \item \Showattrib {function} \dotfill \hyperpage{82}, \hyperpage{119}
 
   \indexspace
 \item {\large\bf G}\nopagebreak[4]
   \item \Showattrib {getAltKey}(DOMのメソッド) \dotfill \hyperpage{81}
   \item \Showattrib {getAttribute}(DOMのメソッド) \dotfill 
 		\hyperpage{77}, \hyperpage{83--85}
-  \item \Showattrib {getBoundingClientRect} \dotfill \hyperpage{120}
+  \item \Showattrib {getBoundingClientRect} \dotfill \hyperpage{119}
   \item \Showattrib {getButton}(DOMのメソッド) \dotfill \hyperpage{81}
   \item \Showattrib {getclientX}(DOMのメソッド) \dotfill \hyperpage{81}
   \item \Showattrib {getclientY}(DOMのメソッド) \dotfill \hyperpage{81}
@@ -161,7 +161,7 @@
   \item \Showattrib {getCurrentTarget}(DOMのメソッド) \dotfill 
 		\hyperpage{81}
   \item \Showattrib {getElementById}(DOMのメソッド) \dotfill 
-		\hyperpage{77}, \hyperpage{87}
+		\hyperpage{77}, \hyperpage{86}
   \item \Showattrib {getElementsByClassName}(DOMのメソッド) \dotfill 
 		\hyperpage{77}
   \item \Showattrib {getElementsByName}(DOMのメソッド) \dotfill 
@@ -180,12 +180,12 @@
   \item \Showattrib {hasAttribute}(DOMのメソッド) \dotfill 
 		\hyperpage{77}
   \item \Showattrib {hasChildNodes}(DOMのプロパティ) \dotfill 
-		\hyperpage{79}
+		\hyperpage{78}
 
   \indexspace
 \item {\large\bf I}\nopagebreak[4]
   \item \Showattrib {insertBefore}(DOMのメソッド) \dotfill 
-		\hyperpage{78}
+		\hyperpage{77}
 
   \indexspace
 \item {\large\bf J}\nopagebreak[4]
@@ -193,31 +193,31 @@
 
   \indexspace
 \item {\large\bf L}\nopagebreak[4]
-  \item \Showattrib {lastChild}(DOMのプロパティ) \dotfill \hyperpage{79}
+  \item \Showattrib {lastChild}(DOMのプロパティ) \dotfill \hyperpage{78}
   \item \Showattrib {lastElementChild}(DOMのプロパティ) \dotfill 
-		\hyperpage{79}
+		\hyperpage{78}
   \item \Showattrib {length}(メソッド) \dotfill \hyperpage{84}
   \item \Showattrib {let} \dotfill \hyperpage{84}
 
   \indexspace
 \item {\large\bf M}\nopagebreak[4]
-  \item \Showattrib {Math.cos(x)} \dotfill \hyperpage{100}
-  \item \Showattrib {Math.floor()} \dotfill \hyperpage{114}
-  \item \Showattrib {Math.PI} \dotfill \hyperpage{100}
+  \item \Showattrib {Math.cos(x)} \dotfill \hyperpage{99}
+  \item \Showattrib {Math.floor()} \dotfill \hyperpage{113}
+  \item \Showattrib {Math.PI} \dotfill \hyperpage{99}
   \item \Showattrib {Math.random()} \dotfill \hyperpage{113}
-  \item \Showattrib {Math.sin(x)} \dotfill \hyperpage{100}
+  \item \Showattrib {Math.sin(x)} \dotfill \hyperpage{99}
   \item \Showattrib {metaKey}(DOMのプロパティ) \dotfill \hyperpage{81}
 
   \indexspace
 \item {\large\bf N}\nopagebreak[4]
   \item \Showattrib {nextElementSibling}(DOMのプロパティ) \dotfill 
-		\hyperpage{79}
+		\hyperpage{78}
   \item \Showattrib {nextSibling}(DOMのプロパティ) \dotfill 
-		\hyperpage{79}
-  \item \Showattrib {nodeName}(DOMのプロパティ) \dotfill \hyperpage{79}
-  \item \Showattrib {nodeType}(DOMのプロパティ) \dotfill \hyperpage{79}
-  \item \Showattrib {nodeValue}(DOMのプロパティ) \dotfill \hyperpage{79}
-  \item \Showattrib {null} \dotfill \hyperpage{89}, \hyperpage{101}, 
+		\hyperpage{78}
+  \item \Showattrib {nodeName}(DOMのプロパティ) \dotfill \hyperpage{78}
+  \item \Showattrib {nodeType}(DOMのプロパティ) \dotfill \hyperpage{78}
+  \item \Showattrib {nodeValue}(DOMのプロパティ) \dotfill \hyperpage{78}
+  \item \Showattrib {null} \dotfill \hyperpage{88}, \hyperpage{101}, 
 		\hyperpage{102}
 
   \indexspace
@@ -227,15 +227,15 @@
   \item \Showattrib {pageYOffset}(DOMのプロパティ) \dotfill 
 		\hyperpage{81}
   \item \Showattrib {parentNode}(DOMのプロパティ) \dotfill 
-		\hyperpage{79}
-  \item \Showattrib {parseInt} \dotfill \hyperpage{86}
+		\hyperpage{78}
+  \item \Showattrib {parseInt} \dotfill \hyperpage{85}
   \item \Showattrib {preventDefault}(DOMのメソッド) \dotfill 
 		\hyperpage{81}
   \item \Showattrib {previousElementSibling}(DOMのプロパティ) \dotfill 
-		\hyperpage{79}
+		\hyperpage{78}
   \item \Showattrib {previousSibling}(DOMのプロパティ) \dotfill 
-		\hyperpage{79}
-  \item \Showattrib {push()}(メソッド) \dotfill \hyperpage{113}
+		\hyperpage{78}
+  \item \Showattrib {push()}(メソッド) \dotfill \hyperpage{112}
 
   \indexspace
 \item {\large\bf Q}\nopagebreak[4]
@@ -248,31 +248,31 @@
 \item {\large\bf R}\nopagebreak[4]
   \item \Showattrib {removeAttribute}(DOMのメソッド) \dotfill 
 		\hyperpage{77}
-  \item \Showattrib {removeChild}(DOMのメソッド) \dotfill \hyperpage{78}
+  \item \Showattrib {removeChild}(DOMのメソッド) \dotfill \hyperpage{77}
   \item \Showattrib {replaceChild}(DOMのメソッド) \dotfill 
-		\hyperpage{78}, \hyperpage{90}, \hyperpage{113}
+		\hyperpage{77}, \hyperpage{90}, \hyperpage{113}
 
   \indexspace
 \item {\large\bf S}\nopagebreak[4]
   \item \Showattrib {screenX}(DOMのプロパティ) \dotfill \hyperpage{81}
   \item \Showattrib {screenY}(DOMのプロパティ) \dotfill \hyperpage{81}
   \item \Showattrib {setAttribute}(DOMのメソッド) \dotfill 
-		\hyperpage{77}, \hyperpage{84}, \hyperpage{86}, 
+		\hyperpage{77}, \hyperpage{84}, \hyperpage{85}, 
 		\hyperpage{87}
   \item \Showattrib {setTimeout()} \dotfill \hyperpage{108}, 
-		\hyperpage{114}
-  \item \Showattrib {setValue}(DOMのメソッド) \dotfill \hyperpage{78}
+		\hyperpage{113}
+  \item \Showattrib {setValue}(DOMのメソッド) \dotfill \hyperpage{77}
   \item \Showattrib {shiftKey}(DOMのプロパティ) \dotfill \hyperpage{81}
-  \item \Showattrib {splice}(Arrayのメソッド) \dotfill \hyperpage{113}
-  \item \Showattrib {splice}(メソッド) \dotfill \hyperpage{113}
+  \item \Showattrib {splice}(Arrayのメソッド) \dotfill \hyperpage{112}
+  \item \Showattrib {splice}(メソッド) \dotfill \hyperpage{112}
   \item \Showattrib {stopPropagation}(DOMのメソッド) \dotfill 
-		\hyperpage{81}, \hyperpage{92}
+		\hyperpage{81}, \hyperpage{91}
 
   \indexspace
 \item {\large\bf T}\nopagebreak[4]
   \item \Showattrib {target}(DOMのプロパティ) \dotfill \hyperpage{81}, 
-		\hyperpage{83}, \hyperpage{91}
-  \item \Showattrib {true} \dotfill \hyperpage{91}
+		\hyperpage{83}, \hyperpage{90}
+  \item \Showattrib {true} \dotfill \hyperpage{90}
 
   \indexspace
 \item {\large\bf V}\nopagebreak[4]
@@ -281,13 +281,13 @@
   \indexspace
 \item {\large\bf W}\nopagebreak[4]
   \item \Showattrib {window}(DOMのオブジェクト) \dotfill 
-		\hyperpage{83}, \hyperpage{108}
+		\hyperpage{82}, \hyperpage{108}
 
   \indexspace
 \item {\large\bf め}\nopagebreak[4]
   \item メソッド
     \subitem \Showattrib {length} \dotfill \hyperpage{84}
-    \subitem \Showattrib {push()} \dotfill \hyperpage{113}
-    \subitem \Showattrib {splice} \dotfill \hyperpage{113}
+    \subitem \Showattrib {push()} \dotfill \hyperpage{112}
+    \subitem \Showattrib {splice} \dotfill \hyperpage{112}
 
 \end{theindex}

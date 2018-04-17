@@ -12,10 +12,10 @@
 \contentsline {subsection}{\numberline {2.2.2}{\upshape SVG} 文書におけるコメントの記入方法}{11}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}色について}{11}{subsection.2.2.3}
 \contentsline {section}{\numberline {2.3}直線}{12}{section.2.3}
-\contentsline {paragraph}{フィックの錯視}{14}{section*.2}
-\contentsline {paragraph}{ミューラー$\cdot $ライヤーの錯視}{15}{section*.3}
+\contentsline {paragraph}{フィックの錯視}{15}{section*.2}
+\contentsline {paragraph}{ミューラー$\cdot $ライヤーの錯視}{16}{section*.3}
 \contentsline {section}{\numberline {2.4}長方形}{18}{section.2.4}
-\contentsline {paragraph}{ポッケンドルフの錯視}{19}{section*.4}
+\contentsline {paragraph}{ポッケンドルフの錯視}{18}{section*.4}
 \contentsline {paragraph}{色の対比}{20}{section*.5}
 \contentsline {paragraph}{ヘルマン格子}{21}{section*.6}
 \contentsline {section}{\numberline {2.5}円と楕円}{22}{section.2.5}
@@ -49,43 +49,43 @@
 \contentsline {paragraph}{追いかけっこをする長方形}{61}{section*.17}
 \contentsline {chapter}{\numberline {第5章}文字列の表示}{65}{chapter.5}
 \contentsline {section}{\numberline {5.1}文字列表示の基礎}{65}{section.5.1}
-\contentsline {section}{\numberline {5.2}部分的に文字の表示を変える方法}{66}{section.5.2}
+\contentsline {section}{\numberline {5.2}部分的に文字の表示を変える方法}{67}{section.5.2}
 \contentsline {section}{\numberline {5.3}道程に沿った文字列の配置}{68}{section.5.3}
 \contentsline {chapter}{\numberline {第6章}JavaScriptを利用したSVG図形の生成}{71}{chapter.6}
 \contentsline {section}{\numberline {6.1}インターラクティブなSVGを作成するための準備}{71}{section.6.1}
 \contentsline {subsection}{\numberline {6.1.1}JavaScript}{71}{subsection.6.1.1}
 \contentsline {subsubsection}{JavaScriptとは}{71}{section*.18}
 \contentsline {subsection}{\numberline {6.1.2}DOM(Docunment Object Model)}{72}{subsection.6.1.2}
-\contentsline {subsection}{\numberline {6.1.3}DOM のメソッドとプロパティ}{77}{subsection.6.1.3}
-\contentsline {section}{\numberline {6.2}イベント}{78}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}イベント概説}{78}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.1.3}DOM のメソッドとプロパティ}{76}{subsection.6.1.3}
+\contentsline {section}{\numberline {6.2}イベント}{79}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}イベント概説}{79}{subsection.6.2.1}
 \contentsline {subsection}{\numberline {6.2.2}{\upshape SVG} 文書や HTML における代表的なイベント}{79}{subsection.6.2.2}
-\contentsline {section}{\numberline {6.3}JavaScriptによる{\upshape SVG} 文書のマウスイベントの処理}{80}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}マウスに関するイベント処理}{80}{subsection.6.3.1}
-\contentsline {subsubsection}{マウスイベントオブジェクトについて}{80}{section*.19}
+\contentsline {section}{\numberline {6.3}JavaScriptによる{\upshape SVG} 文書のマウスイベントの処理}{79}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}マウスに関するイベント処理}{79}{subsection.6.3.1}
+\contentsline {subsubsection}{マウスイベントオブジェクトについて}{79}{section*.19}
 \contentsline {subsubsection}{クリックされたオブジェクトの属性値を表示する}{80}{section*.20}
 \contentsline {subsubsection}{クリックされたオブジェクトの属性値を変える}{84}{section*.21}
-\contentsline {subsubsection}{他のオブジェクトの属性値を変える}{86}{section*.22}
+\contentsline {subsubsection}{他のオブジェクトの属性値を変える}{85}{section*.22}
 \contentsline {subsubsection}{クリックした位置をSVG内に表示する}{87}{section*.23}
 \contentsline {subsection}{\numberline {6.3.2}イベントの処理の詳細}{90}{subsection.6.3.2}
 \contentsline {subsubsection}{DOM Level 2 のイベント処理モデル}{90}{section*.24}
 \contentsline {subsubsection}{リスト\ref {js-click-all}の改良}{91}{section*.25}
-\contentsline {subsubsection}{イベントの伝播のキャンセル}{92}{section*.26}
+\contentsline {subsubsection}{イベントの伝播のキャンセル}{91}{section*.26}
 \contentsline {subsection}{\numberline {6.3.3}マウスのドラッグを処理する}{92}{subsection.6.3.3}
 \contentsline {subsubsection}{ドラッグとは}{92}{section*.27}
-\contentsline {subsubsection}{オブジェクトのドラッグ処理の例}{93}{section*.28}
+\contentsline {subsubsection}{オブジェクトのドラッグ処理の例}{92}{section*.28}
 \contentsline {subsection}{\numberline {6.3.4}オブジェクトを追加する}{94}{subsection.6.3.4}
 \contentsline {section}{\numberline {6.4}起動時にJavaScriptで要素を作成する}{98}{section.6.4}
 \contentsline {subsection}{\numberline {6.4.1}任意の形の曲線を描く}{98}{subsection.6.4.1}
 \contentsline {subsection}{\numberline {6.4.2}SVGのオブジェクトを操作するための関数}{100}{subsection.6.4.2}
-\contentsline {subsection}{\numberline {6.4.3}ツェルナーの錯視図形}{103}{subsection.6.4.3}
+\contentsline {subsection}{\numberline {6.4.3}ツェルナーの錯視図形}{102}{subsection.6.4.3}
 \contentsline {subsection}{\numberline {6.4.4}一定時間経過後に関数をよびだす(自前でアニメーションを作成する)}{107}{subsection.6.4.4}
 \contentsline {section}{\numberline {6.5}HTML文書とその中にある SVG 要素の間でデータ交換する}{114}{section.6.5}
 \contentsline {chapter}{\numberline {付 録A }SVGで利用できる色名}{付録 1}{appendix.A}
-\contentsline {chapter}{\numberline {付 録B }参考文献について}{付録 5}{appendix.B}
-\contentsline {chapter}{\numberline {付 録C }CSSについて}{付録 9}{appendix.C}
-\contentsline {chapter}{索引}{付録 12}{Item.67}
-\contentsline {section}{SVGの用語}{付録 12}{section*.30}
-\contentsline {section}{HTMLの用語}{付録 17}{section*.30}
-\contentsline {section}{JavaScriptの用語}{付録 19}{section*.30}
-\contentsline {section}{一般}{付録 22}{section*.30}
+\contentsline {chapter}{\numberline {付 録B }関連図書}{付録 5}{appendix.B}
+\contentsline {chapter}{\numberline {付 録C }CSSについて}{付録 7}{appendix.C}
+\contentsline {chapter}{索引}{付録 10}{Item.68}
+\contentsline {section}{SVGの用語}{付録 10}{section*.29}
+\contentsline {section}{HTMLの用語}{付録 15}{section*.29}
+\contentsline {section}{JavaScriptの用語}{付録 17}{section*.29}
+\contentsline {section}{一般}{付録 20}{section*.29}
