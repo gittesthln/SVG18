@@ -16,7 +16,7 @@
 \gdef\HyperFirstAtBeginDocument#1{#1}
 \providecommand*\HyPL@Entry[1]{}
 \HyPL@Entry{0<</S/r>>}
-\HyPL@Entry{4<</S/D>>}
+\HyPL@Entry{6<</S/D>>}
 \@writefile{toc}{\contentsline {chapter}{\numberline {第1章}SVGについて}{1}{chapter.1}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
@@ -493,8 +493,83 @@
 \@writefile{lll}{\contentsline {list}{CSS::6.22::リスト\ref  {pinna.html}で読み込むCSSファイル::CH7/pinna.css}{121}{svglist.6.22}}
 \newlabel{pinna.js}{{6.23}{121}{HTML文書とその中にある SVG 要素の間でデータ交換する}{svglist.6.23}{}}
 \@writefile{lll}{\contentsline {list}{JavaScript::6.23::リスト\ref  {pinna.html}で読み込むJavaScriptファイル(pinna.js)::CH7/pinna.js}{121}{svglist.6.23}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {第7章}WebサーバーでSVG図形のデータを作る}{123}{chapter.7}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{svgwithserver}{{7}{123}{WebサーバーでSVG図形のデータを作る}{chapter.7}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.1}Webサーバーを利用するための基礎知識}{123}{section.7.1}}
+\citation{learningphp}
+\@writefile{toc}{\contentsline {section}{\numberline {7.2}PHPプログラムでSVGファイルを作成する}{124}{section.7.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.1}{\ignorespaces 正$n$角形を書く}}{124}{figure.7.1}}
+\newlabel{npolygon-serverG}{{7.1}{124}{正$n$角形を書く}{figure.7.1}{}}
+\newlabel{npolygon-server}{{7.1}{124}{PHPプログラムでSVGファイルを作成する}{svglist.7.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.2}{\ignorespaces 正$n$角形を書く(結果)}}{125}{figure.7.2}}
+\newlabel{npolygon-server-res}{{7.2}{125}{正$n$角形を書く(結果)}{figure.7.2}{}}
+\@writefile{lll}{\contentsline {list}{HTML::7.1::正$n$角形を書く (npolygon-server.html)::CH8/npolygon-server.html}{125}{svglist.7.1}}
+\newlabel{svg-func.php}{{7.2}{126}{PHPプログラムでSVGファイルを作成する}{svglist.7.2}{}}
+\@writefile{lll}{\contentsline {list}{PHP::7.2::SVGを出力するための関数 (svg-func.php)::CH8/svg-func.php}{127}{svglist.7.2}}
+\@writefile{toc}{\contentsline {paragraph}{\texttt  {printHeader(\$width, \$height)}}{127}{section*.29}}
+\@writefile{toc}{\contentsline {paragraph}{\texttt  {outputSpaces(\$n)}}{127}{section*.30}}
+\@writefile{toc}{\contentsline {paragraph}{\texttt  {outputTag(\$tagName, \$attributes, \$close=false)}}{128}{section*.31}}
+\@writefile{toc}{\contentsline {paragraph}{\texttt  {closeTag()}}{129}{section*.32}}
+\@writefile{toc}{\contentsline {paragraph}{\texttt  {closeSVG()}}{129}{section*.33}}
+\newlabel{svg-polygon.php}{{7.3}{129}{\texttt {closeSVG()}}{svglist.7.3}{}}
+\@writefile{lll}{\contentsline {list}{PHP::7.3::正$n$角形を書く (svg-polygon.php)::CH8/svg-polygon.php}{129}{svglist.7.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.3}\texttt  {header}関数について}{131}{section.7.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.3}{\ignorespaces 正$n$角形を書く(ファイルに保存)}}{132}{figure.7.3}}
+\newlabel{npolygon-server-res2}{{7.3}{132}{正$n$角形を書く(ファイルに保存)}{figure.7.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.4}ブラウザを区別する}{133}{section.7.4}}
+\newlabel{server}{{7.4}{133}{ブラウザを区別する}{svglist.7.4}{}}
+\@writefile{lll}{\contentsline {list}{PHP::7.4::サーバに伝えられる情報を調べる (server.php)::CH8/server.php}{133}{svglist.7.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.5}Ajax}{134}{section.7.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.5.1}Ajaxとは}{134}{subsection.7.5.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.5.2}Ajaxの例}{135}{subsection.7.5.2}}
+\newlabel{AjaxEx}{{7.5.2}{135}{Ajaxの例}{subsection.7.5.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.4}{\ignorespaces $n$角形を書く(Ajax版)--開始画面}}{135}{figure.7.4}}
+\newlabel{test-ajax-start}{{7.4}{135}{$n$角形を書く(Ajax版)--開始画面}{figure.7.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.5}{\ignorespaces $n$角形を書く(Ajax版)--サーバーからのデータ}}{136}{figure.7.5}}
+\newlabel{test-ajax-data}{{7.5}{136}{$n$角形を書く(Ajax版)--サーバーからのデータ}{figure.7.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.6}{\ignorespaces $n$角形を書く(Ajax版)--結果}}{136}{figure.7.6}}
+\newlabel{test-ajax-show}{{7.6}{136}{$n$角形を書く(Ajax版)--結果}{figure.7.6}{}}
+\newlabel{npolygon-ajax}{{7.5}{136}{Ajaxの例}{svglist.7.5}{}}
+\@writefile{lll}{\contentsline {list}{HTML::7.5::Ajaxを利用した正多角形の表示 (test-ajax.html)::CH8/test-ajax.html}{137}{svglist.7.5}}
+\newlabel{Ajax-Util}{{7.6}{137}{Ajaxの例}{svglist.7.6}{}}
+\citation{javascriptHacker}
+\@writefile{lll}{\contentsline {list}{JavaScript::7.6::Ajaxを取り扱うJavaScriptファイル(Ajax.js)::CH8/Ajax.js}{138}{svglist.7.6}}
+\citation{WebSecurity}
+\citation{PHPSecurity}
+\newlabel{svg-polygon-ajax}{{7.7}{140}{Ajaxの例}{svglist.7.7}{}}
+\@writefile{lll}{\contentsline {list}{PHP::7.7::頂点の座標を計算するPHPプログラム (svg-polygon-ajax.php)::CH8/svg-polygon-ajax.php}{140}{svglist.7.7}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.6}jQuery}{141}{section.7.6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.6.1}jQueryとは}{141}{subsection.7.6.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.6.2}jQueryの基本}{141}{subsection.7.6.2}}
+\@writefile{toc}{\contentsline {subsubsection}{jQuery()関数とjQueryオブジェクト}{141}{section*.34}}
+\newlabel{CSSSelector}{{1}{142}{jQuery()関数とjQueryオブジェクト}{Func.1}{}}
+\newlabel{ObjSelector}{{2}{142}{jQuery()関数とjQueryオブジェクト}{Func.2}{}}
+\newlabel{HTMLText}{{3}{142}{jQuery()関数とjQueryオブジェクト}{Func.3}{}}
+\newlabel{Function}{{4}{142}{jQuery()関数とjQueryオブジェクト}{Func.4}{}}
+\@writefile{toc}{\contentsline {subsubsection}{jQueryオブジェクトのメソッド}{142}{section*.35}}
+\newlabel{jQueryMethod}{{7.6.2}{142}{jQueryオブジェクトのメソッド}{section*.35}{}}
+\@writefile{toc}{\contentsline {paragraph}{HTML属性の取得と設定}{142}{section*.36}}
+\@writefile{toc}{\contentsline {paragraph}{CSS属性の取得と設定}{143}{section*.37}}
+\@writefile{toc}{\contentsline {paragraph}{HTMLフォーム要素の値の取得と設定}{143}{section*.38}}
+\@writefile{toc}{\contentsline {paragraph}{要素のコンテンツの取得と設定}{143}{section*.39}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.6.3}ドキュメントの構造の変更}{143}{subsection.7.6.3}}
+\@writefile{lot}{\contentsline {table}{\numberline {7.1}{\ignorespaces ドキュメントの構造の変更するメソッド}}{143}{table.7.1}}
+\newlabel{Insertreplace}{{7.1}{143}{ドキュメントの構造の変更するメソッド}{table.7.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.6.4}イベントハンドラーの取り扱い}{143}{subsection.7.6.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.6.5}Ajaxの処理}{144}{subsection.7.6.5}}
+\@writefile{lot}{\contentsline {table}{\numberline {7.2}{\ignorespaces jQuery.ajax()関数で利用できる属性(一部)}}{144}{table.7.2}}
+\newlabel{jQueryAjax}{{7.2}{144}{jQuery.ajax()関数で利用できる属性(一部)}{table.7.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.6.6}jQuery のサンプル}{144}{subsection.7.6.6}}
+\@writefile{toc}{\contentsline {subsubsection}{HTMLとSVGでのデータの交換}{144}{section*.40}}
+\newlabel{ShowSetClickPosjQuery}{{7.8}{144}{HTMLとSVGでのデータの交換}{svglist.7.8}{}}
+\@writefile{lll}{\contentsline {list}{HTML::7.8::クリック位置とSVG要素の属性とHTMLのフォームデータの交換(jQuery版)::CH8/ShowSetClickPos-jQuery.html}{146}{svglist.7.8}}
+\@writefile{toc}{\contentsline {subsubsection}{jQueryにおけるAjaxの利用}{148}{section*.41}}
+\newlabel{Ajax-jQuery}{{7.9}{148}{jQueryにおけるAjaxの利用}{svglist.7.9}{}}
+\@writefile{lll}{\contentsline {list}{JavaScript::7.9::正$n$角形を描く(Ajax-jQuery版)(Ajax-jQuery.js)::CH8/Ajax-jQuery.js}{148}{svglist.7.9}}
 \citation{SVG11}
-\HyPL@Entry{126<</P(付録 )/S/D>>}
+\HyPL@Entry{154<</P(付録 )/S/D>>}
 \@writefile{toc}{\contentsline {chapter}{\numberline {付 録A }SVGで利用できる色名}{付録 1}{appendix.A}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
@@ -512,25 +587,29 @@
 \bibcite{JavaScriptRef}{6}
 \bibcite{JavaScript68}{7}
 \bibcite{CSS3}{8}
-\bibcite{DOM3Event}{9}
-\bibcite{IntroXML}{10}
-\bibcite{Ouchi}{11}
-\bibcite{FirstJS}{12}
-\bibcite{DOM}{13}
-\bibcite{DOM4}{14}
-\bibcite{DOM2Event}{15}
-\bibcite{HTML4}{16}
-\bibcite{HTML5}{17}
+\bibcite{ProgPHP}{9}
+\bibcite{DOM3Event}{10}
+\bibcite{IntroXML}{11}
+\bibcite{Ouchi}{12}
+\bibcite{FirstJS}{13}
+\bibcite{PHPSecurity}{14}
+\bibcite{learningphp}{15}
+\bibcite{DOM}{16}
+\bibcite{DOM4}{17}
+\bibcite{DOM2Event}{18}
 \@writefile{toc}{\contentsline {chapter}{\numberline {付 録B }関連図書}{付録 5}{appendix.B}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\bibcite{SVG11}{18}
-\bibcite{XHTML}{19}
-\bibcite{Zakas}{20}
-\bibcite{OIHandbook}{21}
-\bibcite{Kitaoka}{22}
-\bibcite{OIwCD}{23}
-\bibcite{Ninio}{24}
+\bibcite{HTML4}{19}
+\bibcite{HTML5}{20}
+\bibcite{SVG11}{21}
+\bibcite{XHTML}{22}
+\bibcite{Zakas}{23}
+\bibcite{OIHandbook}{24}
+\bibcite{Kitaoka}{25}
+\bibcite{OIwCD}{26}
+\bibcite{Ninio}{27}
+\bibcite{PHPHome}{28}
 \gdef \LT@iv {\LT@entry 
     {5}{142.80019pt}\LT@entry 
     {5}{301.06485pt}}
@@ -542,8 +621,8 @@
 \newlabel{CSS3selector}{{C.1}{付録 7}{CSS3のセレクタ}{table.C.1}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {C.1}{CSS3のセレクタ(続き)}}{付録 8}{table.C.1}}
 \newlabel{nth-child}{{C.1}{付録 8}{CSSについて}{Problem.C.1}{}}
-\@writefile{toc}{\contentsline {chapter}{索引}{付録 10}{Item.68}}
-\@writefile{toc}{\contentsline {section}{SVGの用語}{付録 10}{section*.29}}
-\@writefile{toc}{\contentsline {section}{HTMLの用語}{付録 15}{section*.29}}
-\@writefile{toc}{\contentsline {section}{JavaScriptの用語}{付録 17}{section*.29}}
-\@writefile{toc}{\contentsline {section}{一般}{付録 20}{section*.29}}
+\@writefile{toc}{\contentsline {chapter}{索引}{付録 10}{Item.72}}
+\@writefile{toc}{\contentsline {section}{SVGの用語}{付録 10}{section*.42}}
+\@writefile{toc}{\contentsline {section}{HTMLの用語}{付録 15}{section*.42}}
+\@writefile{toc}{\contentsline {section}{JavaScriptの用語}{付録 17}{section*.42}}
+\@writefile{toc}{\contentsline {section}{一般}{付録 21}{section*.42}}

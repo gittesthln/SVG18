@@ -1055,3 +1055,24 @@
 \indexentry{::svg (ようそ)@\ShowElm {svg}::::::::|hyperpage}{119}
 \indexentry{::\ShowElm {g}::要素::::::|hyperpage}{120}
 \indexentry{::g (ようそ)@\ShowElm {g}::::::::|hyperpage}{120}
+\indexentry{::\ShowElm {svg}::要素::::::|hyperpage}{127}
+\indexentry{::svg (ようそ)@\ShowElm {svg}::::::::|hyperpage}{127}
+\indexentry{::\ShowElm {svg}::要素::::::|hyperpage}{127}
+\indexentry{::svg (ようそ)@\ShowElm {svg}::::::::|hyperpage}{127}
+\indexentry{::\Showattrib {width}::図形::::::|hyperpage}{127}
+\indexentry{::width ぞくせい(ずけい)@\Showattrib {width}(図形)::::::::|hyperpage}{127}
+\indexentry{::\Showattrib {height}::図形::::::|hyperpage}{127}
+\indexentry{::height ぞくせい(ずけい)@\Showattrib {height}(図形)::::::::|hyperpage}{127}
+\indexentry{::\ShowElm {svg}::要素::::::|hyperpage}{127}
+\indexentry{::svg (ようそ)@\ShowElm {svg}::::::::|hyperpage}{127}
+\indexentry{::\ShowElm {polygon}::要素::::::|hyperpage}{130}
+\indexentry{::polygon (ようそ)@\ShowElm {polygon}::::::::|hyperpage}{130}
+\indexentry{::\ShowElm {g}::要素::::::|hyperpage}{130}
+\indexentry{::g (ようそ)@\ShowElm {g}::::::::|hyperpage}{130}
+\indexentry{::pointsぞくせい@\Showattrib {points}::::::::|hyperpage}{131}
+\indexentry{::\ShowElm {polygon}::要素::::::|hyperpage}{131}
+\indexentry{::polygon (ようそ)@\ShowElm {polygon}::::::::|hyperpage}{131}
+\indexentry{::\Showattrib {points}::図形::::::|hyperpage}{140}
+\indexentry{::points ぞくせい(ずけい)@\Showattrib {points}(図形)::::::::|hyperpage}{140}
+\indexentry{::\Showattrib {d}::図形::::::|hyperpage}{140}
+\indexentry{::d ぞくせい(ずけい)@\Showattrib {d}(図形)::::::::|hyperpage}{140}
