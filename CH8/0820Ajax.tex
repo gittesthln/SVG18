@@ -76,53 +76,47 @@
 
 リスト\ref{npolygon-ajax}は図\ref{test-ajax-start}を表示するための\HTML
 のリストです。
-\HTMLListN{Ajaxを利用した正多角形の表示}{test-ajax}{npolygon-ajax}
+\HTMLListN{Ajaxを利用した正多角形の表示}{test-ajax-rev}{npolygon-ajax}
 フォームに\AttribH{action}
        で\texttt{getData()}を呼び出しています(\Line{callgetData})。この
        関数は次のリスト内で定義されています。
 
-\JSListN{Ajaxを取り扱う\JS ファイル}{Ajax}{Ajax-Util}
+\JSListN{Ajaxを取り扱う\JS ファイル}{Ajax-rev}{Ajax-Util}
 
 \begin{itemize}
- \item \LineR{createXMLHTTPReqS}{createXMLHTTPReqE}の間に定義されている
-       関数\texttt{createXMLHTTPReq}
-       が非同期通信を実現するための\ElmJ{XMLHttpRequest}オブジェクトを作
-       成するものです(\cite{javascriptHacker}から引用しました)。クロス
-       ブラウザ対策がしてあります。
-\ListSub{createXMLHTTPReqS}{createXMLHTTPReqE}
- \begin{itemize}
-  \item まず\texttt{window.}\ElmJ{XMLHttpRequest}があるかをチェッ
-	クします(\Line{XMLHTTPReq})。\IEn{} 9 以降と \Operan にはこのメソッド
-	が存在します。
-	存在すれば
-	\texttt{XMLHttpRequest}オブジェクトを作成します。
-  \item \IEn{} 9 より前では\texttt{XMLHttpRequest}が存在しません。\IEn のバージョ
-	ンによっ
-	て\ElmJ{ActivXObject}に渡す引数の形が異なります
-	(\LineR{ActiveXS}{ActiveXE})。
-	ここでは\keyitem{構造化例外処理}を用いています。\ElmJ{try}の中でエラーが
-	起きると\ElmJ{catch}の部分が実行されるという仕組みになっています。
-  \item \IEn{} 6では\ElmJ{ActivXObject}に渡す引数が\ElmJ{Msxml2.XMLHTTP}と
-	なります(\Line{IE6})。これが失敗すると例外が発生し、
-	\LineR{excetionS}{excetionE}のブロックへ制御が移ります。
-  \item この例外処理の中でもまた構造化例外処理が行われています。\IEn{} 5で
-	は引数が\ElmJ{Microsoft.XMLHTTP}となります。
-  \item 作成できなかった場合には\ElmJ{null}を返します(\Line{null})。
-  \item 作成できた場合にはこの通信が完了したときによび出される関数
+ \item \Line{MakeObj}で裏でサーバーと通信をするための
+       \texttt{XMLHttpRequest}オブジェクトを作成します。
+  \item 作成できた場合(\Line{Succeed})にはこの通信が完了したときによび出される関数
 	(\keyitem{コールバック関数})を\ElmJ{onreadystatechange}に設定し
-	ています(\Line{setCallback})。
+        ています(\LineR{GetS}{GetE})。
+ \begin{itemize}
+  \item \Line{requestOK}では通信が完了し
+        (\texttt{httpObj.}\ElmJ{readyState}\texttt{ ==	4})、
+        ファイルが存在した場合\\
+        (\texttt{httpObj.}\ElmJ{status}\texttt{ == 200})に
+	データを処理します。\footnote{ステータスコードについては
+        \href{https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html}
+        {https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html}を参照してください。}
+  \item \Line{showSendText}では送られてきたデータをテキストとして
+	(\ElmJ{responseText})メッセージボックスに
+	表示しています(通常はこのようなことはしません。念のため。)。
+  \item ここではSVGファイル内の\texttt{npoly}の\texttt{id}がついた
+        図形の属性\AttribO{points}に、送られてき
+	たデータをそのまま(\ElmJ{responseText})属性\AttribO{d}に設定しています
+        (\LineR{setDS}{setDE})。
+  \item もし、送られてきたデータがXML形式であれば\ElmJ{responseText}の代
+	わりに\ElmJ{responseXML}を用いることによりサーバーから送られたデー
+	タは XML のオブジェクトに変換されます。このオブジェクトは DOM を
+	通じて処理する必要があります。
  \end{itemize}
+ \iffalse
        %\footnote
        {このプログラムではブラウザの名称やバージョンを用いて作成するオブジェ
        クトを変えていないことに注意してください。オブジェクトが存在する
        かどうかを調べて、存在しない場合には別の方法をとるというのが最近
        の手法です。いろいろなライブラリーではこの手続きを隠すようにして
        います。}
- \item \LineR{OpenS}{OpenE}は実行ボタンが押されたときによび出される関数
-       です。
-\ListSub{OpenS}{OpenE}
-\begin{itemize}
- \item まず、通信オブジェクトを作成します(\Line{MakeObj})。
+       \fi
  \item 作成できたら(\Line{Succeed})通信オブジェクトの\ElmJ{open}メソッド
        でサーバーに対しリクエストを発行します
        (\LineR{MakeReqS}{MakeReqE})。ここではメソッド
@@ -148,29 +142,6 @@
  \item 送るデータの終了として\ElmJ{send}メソッドに引数\texttt{null}を渡
        します(\Line{sendnull})。
 \end{itemize}
- \item \LineR{GetS}{GetE}では通信が完了したときに呼ばれる関数を定義してい
-       ます。
-\ListSub{GetS}{GetE}
- \begin{itemize}
-  \item \Line{requestOK}では通信が完了し
-        (\texttt{httpObj.}\ElmJ{readyState}\texttt{ ==	4})、
-        ファイルが存在した場合\\
-        (\texttt{httpObj.}\ElmJ{status}\texttt{ == 200})に
-	データを処理します。\footnote{ステータスコードについては
-        \cite[8ページ]{WebSecurity}を参照してください。}
-  \item \Line{showSendText}では送られてきたデータをテキストとして
-	(\ElmJ{responseText})メッセージボックスに
-	表示しています(通常はこのようなことはしません。念のため。)。
-  \item ここではSVGファイル内の\texttt{npoly}の\texttt{id}がついた
-        図形の属性\AttribO{points}に、送られてき
-	たデータをそのまま(\ElmJ{responseText})属性\AttribO{d}に設定しています
-        (\LineR{setDS}{setDE})。
-  \item もし、送られてきたデータがXML形式であれば\ElmJ{responseText}の代
-	わりに\ElmJ{responseXML}を用いることによりサーバーから送られたデー
-	タは XML のオブジェクトに変換されます。このオブジェクトは DOM を
-	通じて処理する必要があります。
- \end{itemize}
-\end{itemize}
 
 次のリストは「実行」ボタンが押されたときに呼び出される PHP のプログラム
 です。%\vspace{\baselineskip}
@@ -188,13 +159,13 @@
        側で何らかの処理が行われることが暗黙のうちに期待されています。
 \end{itemize}
 
-これで見るようにAjax(XMLHTTPRequest)の技法を用いると送られてくるデータは
+これで見るようにAjaxの技法を用いると送られてくるデータは
   新たに書き直すためのデータであり、ページ全体が書き直されないということ
   に注意してください。これを確認するためにはブラウザの「戻る」ボタンを
   押すとよいでしょう。また、アドレスバー内の表示も変化しません。
 \begin{Problem}\upshape
- いくつかの正多角形を表示した後、ブラウザでの戻るボタンを押したらどう
- なるか確認しなさい。
+ いくつかの正多角形を表示した後、ブラウザでの「戻る」ボタンを押しときに
+ 表示されるページを確認しなさい。
 
 \iffalse
 同様のことを \keyitem{Google Map}でも行いなさい。特に、検索をした後どう
@@ -203,7 +174,7 @@
 \end{Problem}
 ブラウザのアドレスバーに直接\verb+svg-polygon-ajax.php?N=5+と入力すると
 メッセージボックスで表示されたデータがブラウザ上に表示されます。つまり、
-ブラウザのページでボタンを押さなくてもデータの取得ができます。したがっ
+ブラウザのページでボタンを押さなくてもデータの送信ができます。したがっ
 て、ネットワーク上で公開する重要なページでは送られてきたデータをしっかり
 吟味する必要があります。詳しくは\cite{PHPSecurity}%や\cite{WebSecurity}
 を参考にしてください。

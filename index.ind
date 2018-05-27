@@ -9,7 +9,7 @@
 
   \indexspace
 \item {\large\bf C}\nopagebreak[4]
-  \item CDN(Contents Delivery Network) \dotfill \hyperpage{141}
+  \item CDN(Contents Delivery Network) \dotfill \hyperpage{140}
   \item CGI \dotfill \hyperpage{123}
   \item \Showattrib {click}(イベント) \dotfill \hyperpage{85}, 
 		\hyperpage{92}, \hyperpage{116}
@@ -37,7 +37,7 @@
 \item {\large\bf J}\nopagebreak[4]
   \item JavaScript \dotfill \hyperpage{71}
     \subitem オブジェクトリテラル \dotfill \hyperpage{118}
-  \item jQuery \dotfill \hyperpage{141}
+  \item jQuery \dotfill \hyperpage{139}
 
   \indexspace
 \item {\large\bf M}\nopagebreak[4]
@@ -165,8 +165,7 @@
 
   \indexspace
 \item {\large\bf こ}\nopagebreak[4]
-  \item 構造化例外処理 \dotfill \hyperpage{138}
-  \item コールバック関数 \dotfill \hyperpage{138}
+  \item コールバック関数 \dotfill \hyperpage{137}
   \item 子ノード \dotfill \hyperpage{72}
   \item コフカリング \dotfill \hyperpage{29}
   \item コメント(SVG) \dotfill \hyperpage{11}
@@ -261,7 +260,7 @@
 
   \indexspace
 \item {\large\bf と}\nopagebreak[4]
-  \item 同期通信 \dotfill \hyperpage{139}
+  \item 同期通信 \dotfill \hyperpage{138}
   \item ドキュメントルート \dotfill \hyperpage{123}
   \item ドラッグの処理(JavaScript) \dotfill \hyperpage{92}
 
