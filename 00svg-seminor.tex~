@@ -1,6 +1,6 @@
 \input Macro/svg-macro.tex
 \Seminortrue
-\newcommand{\YEAR}{2017}
+\newcommand{\YEAR}{2018}
 \title{%
 {\huge 錯視図形を描こう}\\\today 改訂
 \\[1cm]
@@ -30,7 +30,7 @@
 \INPUT{CH5}{05showingtext.tex}
 %\INPUT{CH6}{06filter.tex}
 \INPUT{CH7}{07svg-withjavascript.tex}
-%\INPUT{CH8}{08svgwithserver.tex}
+\INPUT{CH8}{08svgwithserver.tex}
 %\backmatter
 \appendix
 \renewcommand{\thechapter}{\Alph{chapter}}
@@ -63,10 +63,10 @@
 \IncludeIndex{indexSVG}{SVGの用語}
 \IncludeIndex{indexHTML}{HTMLの用語}
 \IncludeIndex{indexJS}{\JS の用語}
-\ifSeminor
-\else
+%\ifSeminor
+%\else
 \IncludeIndex{indexPHP}{PHPの用語}
-\fi
+%\fi
 \IncludeIndex{index}{一般}
 %
 \fi

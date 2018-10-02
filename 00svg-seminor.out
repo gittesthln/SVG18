@@ -54,27 +54,11 @@
 \BOOKMARK [2][-]{subsection.6.4.3}{6.4.3 ツェルナーの錯視図形}{section.6.4}% 54
 \BOOKMARK [2][-]{subsection.6.4.4}{6.4.4 一定時間経過後に関数をよびだす\(自前でアニメーションを作成する\)}{section.6.4}% 55
 \BOOKMARK [1][-]{section.6.5}{6.5 HTML文書とその中にある SVG 要素の間でデータ交換する}{chapter.6}% 56
-\BOOKMARK [0][-]{chapter.7}{第7章 WebサーバーでSVG図形のデータを作る}{}% 57
-\BOOKMARK [1][-]{section.7.1}{7.1 Webサーバーを利用するための基礎知識}{chapter.7}% 58
-\BOOKMARK [1][-]{section.7.2}{7.2 PHPプログラムでSVGファイルを作成する}{chapter.7}% 59
-\BOOKMARK [1][-]{section.7.3}{7.3 header関数について}{chapter.7}% 60
-\BOOKMARK [1][-]{section.7.4}{7.4 ブラウザを区別する}{chapter.7}% 61
-\BOOKMARK [1][-]{section.7.5}{7.5 Ajax}{chapter.7}% 62
-\BOOKMARK [2][-]{subsection.7.5.1}{7.5.1 Ajaxとは}{section.7.5}% 63
-\BOOKMARK [2][-]{subsection.7.5.2}{7.5.2 Ajaxの例}{section.7.5}% 64
-\BOOKMARK [1][-]{section.7.6}{7.6 jQuery}{chapter.7}% 65
-\BOOKMARK [2][-]{subsection.7.6.1}{7.6.1 jQueryとは}{section.7.6}% 66
-\BOOKMARK [2][-]{subsection.7.6.2}{7.6.2 jQueryの基本}{section.7.6}% 67
-\BOOKMARK [2][-]{subsection.7.6.3}{7.6.3 ドキュメントの構造の変更}{section.7.6}% 68
-\BOOKMARK [2][-]{subsection.7.6.4}{7.6.4 イベントハンドラーの取り扱い}{section.7.6}% 69
-\BOOKMARK [2][-]{subsection.7.6.5}{7.6.5 Ajaxの処理}{section.7.6}% 70
-\BOOKMARK [2][-]{subsection.7.6.6}{7.6.6 jQuery のサンプル}{section.7.6}% 71
-\BOOKMARK [0][-]{appendix.A}{付 録A \040SVGで利用できる色名}{}% 72
-\BOOKMARK [0][-]{appendix.B}{付 録B \040関連図書}{}% 73
-\BOOKMARK [0][-]{appendix.C}{付 録C \040CSSについて}{}% 74
-\BOOKMARK [0][-]{Item.72}{索引}{}% 75
-\BOOKMARK [1][-]{section*.42}{SVGの用語}{Item.72}% 76
-\BOOKMARK [1][-]{section*.42}{HTMLの用語}{Item.72}% 77
-\BOOKMARK [1][-]{section*.42}{JavaScriptの用語}{Item.72}% 78
-\BOOKMARK [1][-]{section*.42}{PHPの用語}{Item.72}% 79
-\BOOKMARK [1][-]{section*.42}{一般}{Item.72}% 80
+\BOOKMARK [0][-]{appendix.A}{付 録A \040SVGで利用できる色名}{}% 57
+\BOOKMARK [0][-]{appendix.B}{付 録B \040関連図書}{}% 58
+\BOOKMARK [0][-]{appendix.C}{付 録C \040CSSについて}{}% 59
+\BOOKMARK [0][-]{Item.68}{索引}{}% 60
+\BOOKMARK [1][-]{section*.29}{SVGの用語}{Item.68}% 61
+\BOOKMARK [1][-]{section*.29}{HTMLの用語}{Item.68}% 62
+\BOOKMARK [1][-]{section*.29}{JavaScriptの用語}{Item.68}% 63
+\BOOKMARK [1][-]{section*.29}{一般}{Item.68}% 64

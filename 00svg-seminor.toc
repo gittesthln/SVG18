@@ -81,40 +81,11 @@
 \contentsline {subsection}{\numberline {6.4.3}ツェルナーの錯視図形}{102}{subsection.6.4.3}
 \contentsline {subsection}{\numberline {6.4.4}一定時間経過後に関数をよびだす(自前でアニメーションを作成する)}{107}{subsection.6.4.4}
 \contentsline {section}{\numberline {6.5}HTML文書とその中にある SVG 要素の間でデータ交換する}{114}{section.6.5}
-\contentsline {chapter}{\numberline {第7章}WebサーバーでSVG図形のデータを作る}{123}{chapter.7}
-\contentsline {section}{\numberline {7.1}Webサーバーを利用するための基礎知識}{123}{section.7.1}
-\contentsline {section}{\numberline {7.2}PHPプログラムでSVGファイルを作成する}{124}{section.7.2}
-\contentsline {paragraph}{\texttt {printHeader(\$width, \$height)}}{127}{section*.29}
-\contentsline {paragraph}{\texttt {outputSpaces(\$n)}}{127}{section*.30}
-\contentsline {paragraph}{\texttt {outputTag(\$tagName, \$attributes, \$close=false)}}{128}{section*.31}
-\contentsline {paragraph}{\texttt {closeTag()}}{129}{section*.32}
-\contentsline {paragraph}{\texttt {closeSVG()}}{129}{section*.33}
-\contentsline {section}{\numberline {7.3}\texttt {header}関数について}{131}{section.7.3}
-\contentsline {section}{\numberline {7.4}ブラウザを区別する}{133}{section.7.4}
-\contentsline {section}{\numberline {7.5}Ajax}{134}{section.7.5}
-\contentsline {subsection}{\numberline {7.5.1}Ajaxとは}{134}{subsection.7.5.1}
-\contentsline {subsection}{\numberline {7.5.2}Ajaxの例}{135}{subsection.7.5.2}
-\contentsline {section}{\numberline {7.6}jQuery}{139}{section.7.6}
-\contentsline {subsection}{\numberline {7.6.1}jQueryとは}{139}{subsection.7.6.1}
-\contentsline {subsection}{\numberline {7.6.2}jQueryの基本}{140}{subsection.7.6.2}
-\contentsline {subsubsection}{jQuery()関数とjQueryオブジェクト}{140}{section*.34}
-\contentsline {subsubsection}{jQueryオブジェクトのメソッド}{140}{section*.35}
-\contentsline {paragraph}{HTML属性の取得と設定}{141}{section*.36}
-\contentsline {paragraph}{CSS属性の取得と設定}{141}{section*.37}
-\contentsline {paragraph}{HTMLフォーム要素の値の取得と設定}{141}{section*.38}
-\contentsline {paragraph}{要素のコンテンツの取得と設定}{141}{section*.39}
-\contentsline {subsection}{\numberline {7.6.3}ドキュメントの構造の変更}{141}{subsection.7.6.3}
-\contentsline {subsection}{\numberline {7.6.4}イベントハンドラーの取り扱い}{142}{subsection.7.6.4}
-\contentsline {subsection}{\numberline {7.6.5}Ajaxの処理}{142}{subsection.7.6.5}
-\contentsline {subsection}{\numberline {7.6.6}jQuery のサンプル}{143}{subsection.7.6.6}
-\contentsline {subsubsection}{HTMLとSVGでのデータの交換}{143}{section*.40}
-\contentsline {subsubsection}{jQueryにおけるAjaxの利用}{146}{section*.41}
 \contentsline {chapter}{\numberline {付 録A }SVGで利用できる色名}{付録 1}{appendix.A}
 \contentsline {chapter}{\numberline {付 録B }関連図書}{付録 5}{appendix.B}
 \contentsline {chapter}{\numberline {付 録C }CSSについて}{付録 7}{appendix.C}
-\contentsline {chapter}{索引}{付録 10}{Item.72}
-\contentsline {section}{SVGの用語}{付録 10}{section*.42}
-\contentsline {section}{HTMLの用語}{付録 15}{section*.42}
-\contentsline {section}{JavaScriptの用語}{付録 17}{section*.42}
-\contentsline {section}{PHPの用語}{付録 21}{section*.42}
-\contentsline {section}{一般}{付録 22}{section*.42}
+\contentsline {chapter}{索引}{付録 10}{Item.68}
+\contentsline {section}{SVGの用語}{付録 10}{section*.29}
+\contentsline {section}{HTMLの用語}{付録 15}{section*.29}
+\contentsline {section}{JavaScriptの用語}{付録 17}{section*.29}
+\contentsline {section}{一般}{付録 20}{section*.29}
