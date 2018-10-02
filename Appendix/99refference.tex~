@@ -1,6 +1,9 @@
 % -*- coding: utf-8 -*-
-\chapter{参考文献について}
+%
 %\setcounter{page}{1}
+\ifSeminor
+\else
+\chapter{参考文献について}
 残念ながらSVGのまとまった解説がある日本語の本はないようです。
 このテキストを書来始めたころに参考にした本は\cite{Cagle}と\cite{Campesato}です。
 \ifSeminor
@@ -101,6 +104,7 @@ iPhone や iPod Touch に搭載されている Safari もHTML5に対応してる
 説しているサイトが見つかるでしょう。}。
 %Wii に関しては\pageref{WiiSVG}ページを見てください。
 \fi
+\fi
 \ifSeminor
 \else
 テキスト内で簡単に触れた PHP については\cite{learningphp,ProgPHP}などがあります。PHP
@@ -109,5 +113,28 @@ iPhone や iPod Touch に搭載されている Safari もHTML5に対応してる
  スクリプト系の言語としての面も丁寧に解説した書籍はほとんどありません。PHP
  の全貌を知る唯一の情報は PHP のホームページ\cite{PHPHome} です。
  \fi
+
+\iffalse
+ \newpage
+ \fi
+\makeatletter
+\renewenvironment{thebibliography}[1]
+{\chapter{\bibname}
+\@mkboth{\bibname}{\bibname}%
+   \list{\@biblabel{\@arabic\c@enumiv}}%
+        {\settowidth\labelwidth{\@biblabel{#1}}%
+         \leftmargin\labelwidth
+         \advance\leftmargin\labelsep
+         \@openbib@code
+         \usecounter{enumiv}%
+         \let\p@enumiv\@empty
+         \renewcommand\theenumiv{\@arabic\c@enumiv}}%
+   \sloppy
+   \clubpenalty4000
+   \@clubpenalty\clubpenalty
+   \widowpenalty4000%
+   \sfcode`\.\@m}
+\makeatother
+
  \INPUT{Appendix}{thebibliography}
 
